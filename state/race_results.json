@@ -1,0 +1,504 @@
+{
+  "total_races": 2,
+  "last_race": {
+    "timestamp": "2026-03-07T07:45:13.395740+00:00",
+    "race_number": 2,
+    "duration_s": 29.57,
+    "total_ideas": 34,
+    "top5": [
+      {
+        "agent_name": "CASHBACK-Agent",
+        "category": "cashback",
+        "title": "Girokonto-Wechsel zu DKB",
+        "description": "Die Deutsche Kreditbank (DKB) bietet einen Wechselbonus von 200 EUR für Neukunden, die ein Girokonto eröffnen und die Bedingungen erfüllen. Dies ist eine der besten aktuellen Optionen in Deutschland.",
+        "url": "https://www.dkb.de",
+        "effort_hours": 2.0,
+        "monthly_potential_eur": 200.0,
+        "reliability": 1.0,
+        "speed": 1.0,
+        "requirements": [
+          "Neukunde",
+          "Mindestens 3 Gehaltseingänge"
+        ],
+        "steps": [
+          "Online anmelde",
+          "Konto aktivieren",
+          "Gehaltseingänge tätigen"
+        ],
+        "tags": [
+          "Girokonto",
+          "Wechselbonus"
+        ],
+        "raw_score": 0.9486,
+        "found_at": "2026-03-07T07:44:59.814561+00:00"
+      },
+      {
+        "agent_name": "GIFT-Agent",
+        "category": "gift",
+        "title": "Willkommensbonus bei Online-Banken",
+        "description": "Viele Online-Banken bieten attraktive Willkommensboni für Neukunden, die bis zu 150 Euro betragen können. Dazu sind oft nur einfache Anforderungen wie die Eröffnung eines Kontos und die Durchführung einer ersten Überweisung nötig. Diese Angebote sind in der Regel sicher und schnell.",
+        "url": "https://www.n26.com/de-de",
+        "effort_hours": 1.5,
+        "monthly_potential_eur": 150.0,
+        "reliability": 0.9,
+        "speed": 0.8,
+        "requirements": [
+          "Alter über 18",
+          "Identitätsprüfung"
+        ],
+        "steps": [
+          "Konto eröffnen",
+          "Erste Überweisung tätigen",
+          "Bonus erhalten"
+        ],
+        "tags": [
+          "Banken",
+          "Willkommensbonus"
+        ],
+        "raw_score": 0.8675,
+        "found_at": "2026-03-07T07:44:57.626193+00:00"
+      },
+      {
+        "agent_name": "GIG-Agent",
+        "category": "gig",
+        "title": "Kleine Aufgaben auf TaskRabbit",
+        "description": "Bei TaskRabbit kannst du lokale Dienstleistungen anbieten, wie Möbelmontage, Umzüge oder Reinigungsdienste. Du wählst die Aufgaben, die dir liegen, und kannst deine Verfügbarkeit flexibel gestalten. Die Plattform ist in vielen deutschen Städten verfügbar und bietet eine gute Möglichkeit, schnell Geld zu verdienen.",
+        "url": "https://www.taskrabbit.de",
+        "effort_hours": 3.0,
+        "monthly_potential_eur": 150.0,
+        "reliability": 0.85,
+        "speed": 0.9,
+        "requirements": [
+          "Führerschein (optional)",
+          "Verfügbarkeit für lokale Gigs"
+        ],
+        "steps": [
+          "Registrierung und Profil erstellen",
+          "Aufgaben auswählen und anbieten",
+          "Aufträge durchführen und bezahlen lassen"
+        ],
+        "tags": [
+          "TaskRabbit",
+          "lokale Gigs",
+          "Dienstleistungen"
+        ],
+        "raw_score": 0.8,
+        "found_at": "2026-03-07T07:45:07.548566+00:00"
+      },
+      {
+        "agent_name": "GIG-Agent",
+        "category": "gig",
+        "title": "Daten-Annotation auf Clickworker",
+        "description": "Auf Clickworker kannst du sofort mit der Daten-Annotation beginnen, indem du Texte, Bilder oder Videos markierst. Diese Plattform ermöglicht es dir, in deinem eigenen Tempo zu arbeiten und bietet eine Vielzahl von Aufgaben an. Du musst dich lediglich registrieren und kannst direkt mit den ersten Aufgaben starten.",
+        "url": "https://www.clickworker.com/de",
+        "effort_hours": 2.0,
+        "monthly_potential_eur": 100.0,
+        "reliability": 0.9,
+        "speed": 0.8,
+        "requirements": [
+          "Internetzugang",
+          "Grundkenntnisse im Umgang mit Computern"
+        ],
+        "steps": [
+          "Registrierung auf Clickworker",
+          "Wählen von Aufgaben aus der Daten-Annotation",
+          "Abgabe der erledigten Aufgaben"
+        ],
+        "tags": [
+          "Daten-Annotation",
+          "Clickworker",
+          "Crowdsourcing"
+        ],
+        "raw_score": 0.7698,
+        "found_at": "2026-03-07T07:45:07.548566+00:00"
+      },
+      {
+        "agent_name": "GIFT-Agent",
+        "category": "gift",
+        "title": "Cashback bei Shoop",
+        "description": "Shoop ermöglicht es Nutzern, Cashback auf ihre Online-Einkäufe zu erhalten. Bestimmte Produkte bieten 100% Cashback, sodass sie effektiv kostenlos sind. Nutzer können durch geschicktes Einkaufen und die Nutzung von Angeboten monatlich bis zu 50 Euro zurückerhalten.",
+        "url": "https://www.shoop.de",
+        "effort_hours": 1.0,
+        "monthly_potential_eur": 50.0,
+        "reliability": 0.95,
+        "speed": 0.9,
+        "requirements": [
+          "Registrierung",
+          "Online-Einkäufe"
+        ],
+        "steps": [
+          "Konto bei Shoop erstellen",
+          "Produkte auswählen und einkaufen",
+          "Cashback anfordern"
+        ],
+        "tags": [
+          "Cashback",
+          "Einkaufen"
+        ],
+        "raw_score": 0.7639,
+        "found_at": "2026-03-07T07:44:57.626193+00:00"
+      }
+    ],
+    "winner": {
+      "agent_name": "CASHBACK-Agent",
+      "category": "cashback",
+      "title": "Girokonto-Wechsel zu DKB",
+      "description": "Die Deutsche Kreditbank (DKB) bietet einen Wechselbonus von 200 EUR für Neukunden, die ein Girokonto eröffnen und die Bedingungen erfüllen. Dies ist eine der besten aktuellen Optionen in Deutschland.",
+      "url": "https://www.dkb.de",
+      "effort_hours": 2.0,
+      "monthly_potential_eur": 200.0,
+      "reliability": 1.0,
+      "speed": 1.0,
+      "requirements": [
+        "Neukunde",
+        "Mindestens 3 Gehaltseingänge"
+      ],
+      "steps": [
+        "Online anmelde",
+        "Konto aktivieren",
+        "Gehaltseingänge tätigen"
+      ],
+      "tags": [
+        "Girokonto",
+        "Wechselbonus"
+      ],
+      "raw_score": 0.9486,
+      "found_at": "2026-03-07T07:44:59.814561+00:00"
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-03-07T07:44:12.673695+00:00",
+      "race_number": 1,
+      "duration_s": 34.24,
+      "total_ideas": 34,
+      "top5": [
+        {
+          "agent_name": "GIG-Agent",
+          "category": "gig",
+          "title": "Lokale Gigs auf TaskRabbit",
+          "description": "Auf TaskRabbit kannst du lokale Dienstleistungen anbieten, wie Möbelmontage, Reinigung oder Umzugshilfe. Die Nachfrage nach lokalen Gigs ist in Deutschland hoch und du kannst sofort anfangen. Die Bezahlung erfolgt in der Regel direkt nach Abschluss der Aufgabe.",
+          "url": "https://www.taskrabbit.de",
+          "effort_hours": 2.0,
+          "monthly_potential_eur": 200.0,
+          "reliability": 1.0,
+          "speed": 0.9,
+          "requirements": [
+            "Zugänglichkeit für lokale Aufträge",
+            "Basiswerkzeuge für bestimmte Aufgaben"
+          ],
+          "steps": [
+            "Registrierung auf TaskRabbit",
+            "Profil erstellen",
+            "Gigs auswählen und anbieten"
+          ],
+          "tags": [
+            "Lokale Gigs",
+            "TaskRabbit",
+            "Handwerk"
+          ],
+          "raw_score": 0.9286,
+          "found_at": "2026-03-07T07:44:12.626645+00:00"
+        },
+        {
+          "agent_name": "CASHBACK-Agent",
+          "category": "cashback",
+          "title": "Girokonto-Wechselbonus",
+          "description": "Mehrere Banken bieten attraktive Wechselboni zwischen 100 und 200 EUR, wenn neue Kunden ein Girokonto eröffnen und bestimmte Bedingungen erfüllen. Diese Boni sind eine einfache Möglichkeit, zusätzliches Geld zu verdienen.",
+          "url": "https://www.finanztest.de/girokonto-wechselbonus",
+          "effort_hours": 2.0,
+          "monthly_potential_eur": 150.0,
+          "reliability": 1.0,
+          "speed": 0.9,
+          "requirements": [
+            "Neukunde",
+            "Girokonto eröffnen und nutzen"
+          ],
+          "steps": [
+            "Bank auswählen",
+            "Konto eröffnen",
+            "Bedingungen erfüllen"
+          ],
+          "tags": [
+            "Girokonto",
+            "Wechselbonus"
+          ],
+          "raw_score": 0.9,
+          "found_at": "2026-03-07T07:43:59.454777+00:00"
+        },
+        {
+          "agent_name": "CASHBACK-Agent",
+          "category": "cashback",
+          "title": "Kreditkarten-Signup-Boni",
+          "description": "Verschiedene Kreditkartenanbieter bieten attraktive Signup-Boni von bis zu 100 EUR oder mehr, wenn man eine neue Kreditkarte beantragt und die ersten Einkäufe tätigt. Achten Sie auf Karten ohne Jahresgebühr.",
+          "url": "https://www.kreditkartenvergleich.de",
+          "effort_hours": 1.0,
+          "monthly_potential_eur": 100.0,
+          "reliability": 0.95,
+          "speed": 0.7,
+          "requirements": [
+            "Neukunde",
+            "Kreditkarte beantragen"
+          ],
+          "steps": [
+            "Kreditkarte auswählen",
+            "Antrag stellen",
+            "Einkäufe tätigen"
+          ],
+          "tags": [
+            "Kreditkarte",
+            "Signup-Bonus"
+          ],
+          "raw_score": 0.8373,
+          "found_at": "2026-03-07T07:43:59.454777+00:00"
+        },
+        {
+          "agent_name": "GIFT-Agent",
+          "category": "gift",
+          "title": "Willkommensbonus bei Online-Banken",
+          "description": "Viele Online-Banken bieten attraktive Willkommensboni für neue Kunden an, die bei der Kontoeröffnung einen bestimmten Betrag einzahlen. Diese Boni können als Bargeld oder als Geschenkkarten ausgegeben werden und sind oft an geringe Bedingungen geknüpft.",
+          "url": "https://www.check24.de/bank/willkommensbonus/",
+          "effort_hours": 1.5,
+          "monthly_potential_eur": 100.0,
+          "reliability": 0.95,
+          "speed": 0.8,
+          "requirements": [
+            "Alter über 18 Jahre",
+            "Wohnsitz in Deutschland"
+          ],
+          "steps": [
+            "Wahl einer Online-Bank",
+            "Kontoeröffnung und Einzahlung",
+            "Bonus abholen"
+          ],
+          "tags": [
+            "Banking",
+            "Willkommensbonus"
+          ],
+          "raw_score": 0.824,
+          "found_at": "2026-03-07T07:44:06.393656+00:00"
+        },
+        {
+          "agent_name": "GIG-Agent",
+          "category": "gig",
+          "title": "Virtuelle Assistenz auf Fiverr",
+          "description": "Als virtuelle Assistenz kannst du auf Fiverr verschiedene Dienstleistungen anbieten, wie Terminplanung, Datenverwaltung oder Kundenservice. Du brauchst dafür keine speziellen Qualifikationen, nur organisatorische Fähigkeiten. Der Einstieg ist einfach und die Bezahlung kann schnell erfolgen.",
+          "url": "https://www.fiverr.com",
+          "effort_hours": 2.0,
+          "monthly_potential_eur": 150.0,
+          "reliability": 0.8,
+          "speed": 0.7,
+          "requirements": [
+            "Gutes Zeitmanagement",
+            "Kommunikationsfähigkeiten"
+          ],
+          "steps": [
+            "Registrierung auf Fiverr",
+            "Dienstleistungen einstellen",
+            "Aufträge annehmen und bearbeiten"
+          ],
+          "tags": [
+            "Virtuelle Assistenz",
+            "Fiverr",
+            "Homeoffice"
+          ],
+          "raw_score": 0.81,
+          "found_at": "2026-03-07T07:44:12.626645+00:00"
+        }
+      ],
+      "winner": {
+        "agent_name": "GIG-Agent",
+        "category": "gig",
+        "title": "Lokale Gigs auf TaskRabbit",
+        "description": "Auf TaskRabbit kannst du lokale Dienstleistungen anbieten, wie Möbelmontage, Reinigung oder Umzugshilfe. Die Nachfrage nach lokalen Gigs ist in Deutschland hoch und du kannst sofort anfangen. Die Bezahlung erfolgt in der Regel direkt nach Abschluss der Aufgabe.",
+        "url": "https://www.taskrabbit.de",
+        "effort_hours": 2.0,
+        "monthly_potential_eur": 200.0,
+        "reliability": 1.0,
+        "speed": 0.9,
+        "requirements": [
+          "Zugänglichkeit für lokale Aufträge",
+          "Basiswerkzeuge für bestimmte Aufgaben"
+        ],
+        "steps": [
+          "Registrierung auf TaskRabbit",
+          "Profil erstellen",
+          "Gigs auswählen und anbieten"
+        ],
+        "tags": [
+          "Lokale Gigs",
+          "TaskRabbit",
+          "Handwerk"
+        ],
+        "raw_score": 0.9286,
+        "found_at": "2026-03-07T07:44:12.626645+00:00"
+      }
+    },
+    {
+      "timestamp": "2026-03-07T07:45:13.395740+00:00",
+      "race_number": 2,
+      "duration_s": 29.57,
+      "total_ideas": 34,
+      "top5": [
+        {
+          "agent_name": "CASHBACK-Agent",
+          "category": "cashback",
+          "title": "Girokonto-Wechsel zu DKB",
+          "description": "Die Deutsche Kreditbank (DKB) bietet einen Wechselbonus von 200 EUR für Neukunden, die ein Girokonto eröffnen und die Bedingungen erfüllen. Dies ist eine der besten aktuellen Optionen in Deutschland.",
+          "url": "https://www.dkb.de",
+          "effort_hours": 2.0,
+          "monthly_potential_eur": 200.0,
+          "reliability": 1.0,
+          "speed": 1.0,
+          "requirements": [
+            "Neukunde",
+            "Mindestens 3 Gehaltseingänge"
+          ],
+          "steps": [
+            "Online anmelde",
+            "Konto aktivieren",
+            "Gehaltseingänge tätigen"
+          ],
+          "tags": [
+            "Girokonto",
+            "Wechselbonus"
+          ],
+          "raw_score": 0.9486,
+          "found_at": "2026-03-07T07:44:59.814561+00:00"
+        },
+        {
+          "agent_name": "GIFT-Agent",
+          "category": "gift",
+          "title": "Willkommensbonus bei Online-Banken",
+          "description": "Viele Online-Banken bieten attraktive Willkommensboni für Neukunden, die bis zu 150 Euro betragen können. Dazu sind oft nur einfache Anforderungen wie die Eröffnung eines Kontos und die Durchführung einer ersten Überweisung nötig. Diese Angebote sind in der Regel sicher und schnell.",
+          "url": "https://www.n26.com/de-de",
+          "effort_hours": 1.5,
+          "monthly_potential_eur": 150.0,
+          "reliability": 0.9,
+          "speed": 0.8,
+          "requirements": [
+            "Alter über 18",
+            "Identitätsprüfung"
+          ],
+          "steps": [
+            "Konto eröffnen",
+            "Erste Überweisung tätigen",
+            "Bonus erhalten"
+          ],
+          "tags": [
+            "Banken",
+            "Willkommensbonus"
+          ],
+          "raw_score": 0.8675,
+          "found_at": "2026-03-07T07:44:57.626193+00:00"
+        },
+        {
+          "agent_name": "GIG-Agent",
+          "category": "gig",
+          "title": "Kleine Aufgaben auf TaskRabbit",
+          "description": "Bei TaskRabbit kannst du lokale Dienstleistungen anbieten, wie Möbelmontage, Umzüge oder Reinigungsdienste. Du wählst die Aufgaben, die dir liegen, und kannst deine Verfügbarkeit flexibel gestalten. Die Plattform ist in vielen deutschen Städten verfügbar und bietet eine gute Möglichkeit, schnell Geld zu verdienen.",
+          "url": "https://www.taskrabbit.de",
+          "effort_hours": 3.0,
+          "monthly_potential_eur": 150.0,
+          "reliability": 0.85,
+          "speed": 0.9,
+          "requirements": [
+            "Führerschein (optional)",
+            "Verfügbarkeit für lokale Gigs"
+          ],
+          "steps": [
+            "Registrierung und Profil erstellen",
+            "Aufgaben auswählen und anbieten",
+            "Aufträge durchführen und bezahlen lassen"
+          ],
+          "tags": [
+            "TaskRabbit",
+            "lokale Gigs",
+            "Dienstleistungen"
+          ],
+          "raw_score": 0.8,
+          "found_at": "2026-03-07T07:45:07.548566+00:00"
+        },
+        {
+          "agent_name": "GIG-Agent",
+          "category": "gig",
+          "title": "Daten-Annotation auf Clickworker",
+          "description": "Auf Clickworker kannst du sofort mit der Daten-Annotation beginnen, indem du Texte, Bilder oder Videos markierst. Diese Plattform ermöglicht es dir, in deinem eigenen Tempo zu arbeiten und bietet eine Vielzahl von Aufgaben an. Du musst dich lediglich registrieren und kannst direkt mit den ersten Aufgaben starten.",
+          "url": "https://www.clickworker.com/de",
+          "effort_hours": 2.0,
+          "monthly_potential_eur": 100.0,
+          "reliability": 0.9,
+          "speed": 0.8,
+          "requirements": [
+            "Internetzugang",
+            "Grundkenntnisse im Umgang mit Computern"
+          ],
+          "steps": [
+            "Registrierung auf Clickworker",
+            "Wählen von Aufgaben aus der Daten-Annotation",
+            "Abgabe der erledigten Aufgaben"
+          ],
+          "tags": [
+            "Daten-Annotation",
+            "Clickworker",
+            "Crowdsourcing"
+          ],
+          "raw_score": 0.7698,
+          "found_at": "2026-03-07T07:45:07.548566+00:00"
+        },
+        {
+          "agent_name": "GIFT-Agent",
+          "category": "gift",
+          "title": "Cashback bei Shoop",
+          "description": "Shoop ermöglicht es Nutzern, Cashback auf ihre Online-Einkäufe zu erhalten. Bestimmte Produkte bieten 100% Cashback, sodass sie effektiv kostenlos sind. Nutzer können durch geschicktes Einkaufen und die Nutzung von Angeboten monatlich bis zu 50 Euro zurückerhalten.",
+          "url": "https://www.shoop.de",
+          "effort_hours": 1.0,
+          "monthly_potential_eur": 50.0,
+          "reliability": 0.95,
+          "speed": 0.9,
+          "requirements": [
+            "Registrierung",
+            "Online-Einkäufe"
+          ],
+          "steps": [
+            "Konto bei Shoop erstellen",
+            "Produkte auswählen und einkaufen",
+            "Cashback anfordern"
+          ],
+          "tags": [
+            "Cashback",
+            "Einkaufen"
+          ],
+          "raw_score": 0.7639,
+          "found_at": "2026-03-07T07:44:57.626193+00:00"
+        }
+      ],
+      "winner": {
+        "agent_name": "CASHBACK-Agent",
+        "category": "cashback",
+        "title": "Girokonto-Wechsel zu DKB",
+        "description": "Die Deutsche Kreditbank (DKB) bietet einen Wechselbonus von 200 EUR für Neukunden, die ein Girokonto eröffnen und die Bedingungen erfüllen. Dies ist eine der besten aktuellen Optionen in Deutschland.",
+        "url": "https://www.dkb.de",
+        "effort_hours": 2.0,
+        "monthly_potential_eur": 200.0,
+        "reliability": 1.0,
+        "speed": 1.0,
+        "requirements": [
+          "Neukunde",
+          "Mindestens 3 Gehaltseingänge"
+        ],
+        "steps": [
+          "Online anmelde",
+          "Konto aktivieren",
+          "Gehaltseingänge tätigen"
+        ],
+        "tags": [
+          "Girokonto",
+          "Wechselbonus"
+        ],
+        "raw_score": 0.9486,
+        "found_at": "2026-03-07T07:44:59.814561+00:00"
+      }
+    }
+  ]
+}

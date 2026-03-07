@@ -1,0 +1,60 @@
+{
+  "last_decision_at": "2026-03-07T07:45:13.390237+00:00",
+  "winner": {
+    "agent_name": "CASHBACK-Agent",
+    "category": "cashback",
+    "title": "Girokonto-Wechsel zu DKB",
+    "description": "Die Deutsche Kreditbank (DKB) bietet einen Wechselbonus von 200 EUR für Neukunden, die ein Girokonto eröffnen und die Bedingungen erfüllen. Dies ist eine der besten aktuellen Optionen in Deutschland.",
+    "url": "https://www.dkb.de",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 200.0,
+    "reliability": 1.0,
+    "speed": 1.0,
+    "requirements": [
+      "Neukunde",
+      "Mindestens 3 Gehaltseingänge"
+    ],
+    "steps": [
+      "Online anmelde",
+      "Konto aktivieren",
+      "Gehaltseingänge tätigen"
+    ],
+    "tags": [
+      "Girokonto",
+      "Wechselbonus"
+    ],
+    "raw_score": 0.9486,
+    "found_at": "2026-03-07T07:44:59.814561+00:00"
+  },
+  "plan": {
+    "title": "Umsetzungsplan: Girokonto-Wechsel zu DKB",
+    "summary": "Der Wechsel zu einem DKB-Girokonto bietet die Möglichkeit, einen Wechselbonus von 200 EUR zu erhalten. Durch die Eröffnung des Kontos und das Einrichten von Gehaltseingängen kann dieser Bonus schnell realisiert werden.",
+    "day1_actions": [
+      "Besuche die DKB-Website und fülle das Online-Anmeldeformular aus.",
+      "Sammle die erforderlichen Unterlagen (z.B. Personalausweis, Gehaltsnachweise).",
+      "Überprüfe die Bedingungen für die Gehaltseingänge."
+    ],
+    "week1_goals": [
+      "Konto erfolgreich aktivieren.",
+      "Mindestens 1 Gehaltseingang auf das neue Konto tätigen."
+    ],
+    "month1_target_eur": 200.0,
+    "tools_needed": [
+      "Internetzugang",
+      "Personalausweis",
+      "Gehaltsnachweise"
+    ],
+    "pitfalls": [
+      "Nicht alle Voraussetzungen für den Wechselbonus erfüllen.",
+      "Gehaltseingänge nicht rechtzeitig tätigen."
+    ],
+    "success_metric": "Erhalt des Wechselbonus von 200 EUR auf dem neuen Konto.",
+    "automation_potential": "Automatisiere die Gehaltseingänge durch Einrichten eines Dauerauftrags von deinem Arbeitgeber.",
+    "estimated_first_euro_days": 7
+  },
+  "race_meta": {
+    "race_number": 2,
+    "duration_s": 29.57,
+    "total_ideas": 34
+  }
+}

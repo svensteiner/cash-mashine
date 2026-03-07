@@ -1,0 +1,903 @@
+[
+  {
+    "agent_name": "CASHBACK-Agent",
+    "category": "cashback",
+    "title": "Girokonto-Wechsel zu DKB",
+    "description": "Die Deutsche Kreditbank (DKB) bietet einen Wechselbonus von 200 EUR für Neukunden, die ein Girokonto eröffnen und die Bedingungen erfüllen. Dies ist eine der besten aktuellen Optionen in Deutschland.",
+    "url": "https://www.dkb.de",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 200.0,
+    "reliability": 1.0,
+    "speed": 1.0,
+    "requirements": [
+      "Neukunde",
+      "Mindestens 3 Gehaltseingänge"
+    ],
+    "steps": [
+      "Online anmelde",
+      "Konto aktivieren",
+      "Gehaltseingänge tätigen"
+    ],
+    "tags": [
+      "Girokonto",
+      "Wechselbonus"
+    ],
+    "raw_score": 0.9486,
+    "found_at": "2026-03-07T07:44:59.814561+00:00"
+  },
+  {
+    "agent_name": "GIFT-Agent",
+    "category": "gift",
+    "title": "Willkommensbonus bei Online-Banken",
+    "description": "Viele Online-Banken bieten attraktive Willkommensboni für Neukunden, die bis zu 150 Euro betragen können. Dazu sind oft nur einfache Anforderungen wie die Eröffnung eines Kontos und die Durchführung einer ersten Überweisung nötig. Diese Angebote sind in der Regel sicher und schnell.",
+    "url": "https://www.n26.com/de-de",
+    "effort_hours": 1.5,
+    "monthly_potential_eur": 150.0,
+    "reliability": 0.9,
+    "speed": 0.8,
+    "requirements": [
+      "Alter über 18",
+      "Identitätsprüfung"
+    ],
+    "steps": [
+      "Konto eröffnen",
+      "Erste Überweisung tätigen",
+      "Bonus erhalten"
+    ],
+    "tags": [
+      "Banken",
+      "Willkommensbonus"
+    ],
+    "raw_score": 0.8675,
+    "found_at": "2026-03-07T07:44:57.626193+00:00"
+  },
+  {
+    "agent_name": "GIG-Agent",
+    "category": "gig",
+    "title": "Kleine Aufgaben auf TaskRabbit",
+    "description": "Bei TaskRabbit kannst du lokale Dienstleistungen anbieten, wie Möbelmontage, Umzüge oder Reinigungsdienste. Du wählst die Aufgaben, die dir liegen, und kannst deine Verfügbarkeit flexibel gestalten. Die Plattform ist in vielen deutschen Städten verfügbar und bietet eine gute Möglichkeit, schnell Geld zu verdienen.",
+    "url": "https://www.taskrabbit.de",
+    "effort_hours": 3.0,
+    "monthly_potential_eur": 150.0,
+    "reliability": 0.85,
+    "speed": 0.9,
+    "requirements": [
+      "Führerschein (optional)",
+      "Verfügbarkeit für lokale Gigs"
+    ],
+    "steps": [
+      "Registrierung und Profil erstellen",
+      "Aufgaben auswählen und anbieten",
+      "Aufträge durchführen und bezahlen lassen"
+    ],
+    "tags": [
+      "TaskRabbit",
+      "lokale Gigs",
+      "Dienstleistungen"
+    ],
+    "raw_score": 0.8,
+    "found_at": "2026-03-07T07:45:07.548566+00:00"
+  },
+  {
+    "agent_name": "GIG-Agent",
+    "category": "gig",
+    "title": "Daten-Annotation auf Clickworker",
+    "description": "Auf Clickworker kannst du sofort mit der Daten-Annotation beginnen, indem du Texte, Bilder oder Videos markierst. Diese Plattform ermöglicht es dir, in deinem eigenen Tempo zu arbeiten und bietet eine Vielzahl von Aufgaben an. Du musst dich lediglich registrieren und kannst direkt mit den ersten Aufgaben starten.",
+    "url": "https://www.clickworker.com/de",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 100.0,
+    "reliability": 0.9,
+    "speed": 0.8,
+    "requirements": [
+      "Internetzugang",
+      "Grundkenntnisse im Umgang mit Computern"
+    ],
+    "steps": [
+      "Registrierung auf Clickworker",
+      "Wählen von Aufgaben aus der Daten-Annotation",
+      "Abgabe der erledigten Aufgaben"
+    ],
+    "tags": [
+      "Daten-Annotation",
+      "Clickworker",
+      "Crowdsourcing"
+    ],
+    "raw_score": 0.7698,
+    "found_at": "2026-03-07T07:45:07.548566+00:00"
+  },
+  {
+    "agent_name": "GIFT-Agent",
+    "category": "gift",
+    "title": "Cashback bei Shoop",
+    "description": "Shoop ermöglicht es Nutzern, Cashback auf ihre Online-Einkäufe zu erhalten. Bestimmte Produkte bieten 100% Cashback, sodass sie effektiv kostenlos sind. Nutzer können durch geschicktes Einkaufen und die Nutzung von Angeboten monatlich bis zu 50 Euro zurückerhalten.",
+    "url": "https://www.shoop.de",
+    "effort_hours": 1.0,
+    "monthly_potential_eur": 50.0,
+    "reliability": 0.95,
+    "speed": 0.9,
+    "requirements": [
+      "Registrierung",
+      "Online-Einkäufe"
+    ],
+    "steps": [
+      "Konto bei Shoop erstellen",
+      "Produkte auswählen und einkaufen",
+      "Cashback anfordern"
+    ],
+    "tags": [
+      "Cashback",
+      "Einkaufen"
+    ],
+    "raw_score": 0.7639,
+    "found_at": "2026-03-07T07:44:57.626193+00:00"
+  },
+  {
+    "agent_name": "CASHBACK-Agent",
+    "category": "cashback",
+    "title": "Shoop Cashback-Portal",
+    "description": "Shoop bietet bis zu 10% Cashback auf eine Vielzahl von Online-Einkäufen bei teilnehmenden Händlern. Die Ausschüttungen sind schnell und zuverlässig, was Shoop zu einer der besten Optionen für regelmäßige Online-Shopper macht.",
+    "url": "https://www.shoop.de",
+    "effort_hours": 1.0,
+    "monthly_potential_eur": 50.0,
+    "reliability": 0.9,
+    "speed": 0.8,
+    "requirements": [
+      "Registrierung auf der Plattform",
+      "Nutzung von Partner-Händlern"
+    ],
+    "steps": [
+      "Registrieren",
+      "Über das Portal einkaufen",
+      "Cashback abwarten und auszahlen lassen"
+    ],
+    "tags": [
+      "Cashback",
+      "Online-Shopping"
+    ],
+    "raw_score": 0.7314,
+    "found_at": "2026-03-07T07:44:59.814561+00:00"
+  },
+  {
+    "agent_name": "GIG-Agent",
+    "category": "gig",
+    "title": "Daten-Annotation bei Remotasks",
+    "description": "Remotasks bietet eine Plattform für Daten-Annotation, bei der du Bilder und Videos kategorisieren und beschriften kannst. Die Einstiegshürde ist niedrig und du kannst sofort mit dem Arbeiten beginnen, nachdem du dich registriert hast. Die Vergütung ist fair und die Aufgaben sind einfach zu verstehen.",
+    "url": "https://www.remotasks.com",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 80.0,
+    "reliability": 0.9,
+    "speed": 0.75,
+    "requirements": [
+      "Internetzugang",
+      "Grundkenntnisse im Umgang mit Computern"
+    ],
+    "steps": [
+      "Registrierung auf Remotasks",
+      "Schulung für Aufgaben absolvieren",
+      "Aufgaben erledigen und Vergütung erhalten"
+    ],
+    "tags": [
+      "Daten-Annotation",
+      "Remotasks",
+      "Crowdsourcing"
+    ],
+    "raw_score": 0.7224,
+    "found_at": "2026-03-07T07:45:07.548566+00:00"
+  },
+  {
+    "agent_name": "SURVEY-Agent",
+    "category": "survey",
+    "title": "Testbirds",
+    "description": "Testbirds bietet die Möglichkeit, durch Usability-Tests und Umfragen Geld zu verdienen. Die Bezahlung ist fair und kann bis zu 100 Euro pro Stunde erreichen, abhängig von der Art des Tests. Die Auszahlung erfolgt über PayPal, ohne Mindestabhebungsgrenze.",
+    "url": "https://www.testbirds.com/",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 70.0,
+    "reliability": 0.85,
+    "speed": 0.9,
+    "requirements": [
+      "Wohnsitz in Deutschland oder EU",
+      "Mindestalter 18 Jahre"
+    ],
+    "steps": [
+      "Registrierung auf Testbirds",
+      "Testprojekte auswählen",
+      "Bezahlung nach Abschluss der Tests"
+    ],
+    "tags": [
+      "Usability-Tests",
+      "Umfragen"
+    ],
+    "raw_score": 0.72,
+    "found_at": "2026-03-07T07:45:03.429478+00:00"
+  },
+  {
+    "agent_name": "GIG-Agent",
+    "category": "gig",
+    "title": "Virtuelle Assistenz auf Upwork",
+    "description": "Als virtuelle Assistenz kannst du Unternehmen bei administrativen Aufgaben unterstützen, wie E-Mail-Management oder Terminplanung. Die Anforderungen sind gering, und du kannst sofort nach der Erstellung deines Profils auf Upwork beginnen. Die Plattform hat eine große Nachfrage nach solchen Dienstleistungen.",
+    "url": "https://www.upwork.com",
+    "effort_hours": 3.0,
+    "monthly_potential_eur": 120.0,
+    "reliability": 0.8,
+    "speed": 0.7,
+    "requirements": [
+      "Gute Kommunikationsfähigkeiten",
+      "Organisationsgeschick"
+    ],
+    "steps": [
+      "Profil auf Upwork erstellen",
+      "Aufträge suchen und bewerben",
+      "Aufgaben durchführen und Vergütung erhalten"
+    ],
+    "tags": [
+      "Upwork",
+      "virtuelle Assistenz",
+      "Freelance"
+    ],
+    "raw_score": 0.71,
+    "found_at": "2026-03-07T07:45:07.548566+00:00"
+  },
+  {
+    "agent_name": "SURVEY-Agent",
+    "category": "survey",
+    "title": "SurveyTime",
+    "description": "SurveyTime ist eine Plattform, die Nutzer für das Ausfüllen von Umfragen bezahlt. Jeder abgeschlossene Fragebogen bringt sofortige Belohnungen, die in bar oder als Geschenkkarten ausgezahlt werden können. Die Auszahlungsrate ist transparent und es gibt keine Mindestabhebungsgrenze.",
+    "url": "https://surveytime.io/",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 50.0,
+    "reliability": 0.9,
+    "speed": 1.0,
+    "requirements": [
+      "Wohnsitz in Deutschland oder EU",
+      "Mindestalter 18 Jahre"
+    ],
+    "steps": [
+      "Registrierung auf der Plattform",
+      "Umfragen auswählen und ausfüllen",
+      "Belohnungen einlösen"
+    ],
+    "tags": [
+      "Umfragen",
+      "Schnellverdienst"
+    ],
+    "raw_score": 0.7089,
+    "found_at": "2026-03-07T07:45:03.429478+00:00"
+  },
+  {
+    "agent_name": "PASSIVE-Agent",
+    "category": "passive",
+    "title": "Dividenden-Investitionen in ETFs",
+    "description": "Investieren in Dividenden-ETFs ermöglicht es, von den Ausschüttungen der Unternehmen zu profitieren, ohne direkt in Aktien investieren zu müssen. Mit einer breiten Diversifikation und geringeren Risiken können Anleger von stabilen Erträgen profitieren. Die Auswahl von kostengünstigen ETFs mit hohen Dividendenrenditen ist entscheidend.",
+    "url": "https://www.justetf.com",
+    "effort_hours": 5.0,
+    "monthly_potential_eur": 100.0,
+    "reliability": 0.9,
+    "speed": 0.8,
+    "requirements": [
+      "Broker-Konto",
+      "Startkapital ab 1.000 EUR"
+    ],
+    "steps": [
+      "Broker auswählen",
+      "ETFs recherchieren",
+      "Investieren"
+    ],
+    "tags": [
+      "Investieren",
+      "ETFs",
+      "Dividenden"
+    ],
+    "raw_score": 0.6948,
+    "found_at": "2026-03-07T07:44:55.784823+00:00"
+  },
+  {
+    "agent_name": "AIRDROP-Agent",
+    "category": "airdrop",
+    "title": "CEX.IO Airdrop",
+    "description": "CEX.IO bietet einen Airdrop für neue Nutzer an. Um teilzunehmen, müssen Sie sich registrieren, eine Einzahlung von mindestens 50 USD tätigen und eine Handelsaktion durchführen. Die Gas-Kosten sind minimal, da es sich um einen zentralisierten Exchange handelt. Das monatliche Potenzial hängt von der Handelsaktivität ab, kann aber bei regelmäßiger Nutzung 50 EUR erreichen.",
+    "url": "https://airdrops.io/cex-io-airdrop",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 50.0,
+    "reliability": 1.0,
+    "speed": 0.8,
+    "requirements": [
+      "Registrierung bei CEX.IO",
+      "Mindestens 50 USD Einzahlung"
+    ],
+    "steps": [
+      "Registrieren Sie sich auf der Plattform",
+      "Tätigen Sie eine Einzahlung",
+      "Führen Sie einen Trade durch"
+    ],
+    "tags": [
+      "Airdrop",
+      "CEX.IO",
+      "Krypto-Handel"
+    ],
+    "raw_score": 0.6939,
+    "found_at": "2026-03-07T07:44:58.628405+00:00"
+  },
+  {
+    "agent_name": "CASHBACK-Agent",
+    "category": "cashback",
+    "title": "iGraal Cashback-Plattform",
+    "description": "iGraal bietet bis zu 15% Cashback bei über 2000 Partner-Shops an. Darüber hinaus gibt es regelmäßig Sonderaktionen mit erhöhtem Cashback. Die Auszahlung erfolgt schnell und unkompliziert.",
+    "url": "https://www.igraal.de",
+    "effort_hours": 1.5,
+    "monthly_potential_eur": 60.0,
+    "reliability": 0.85,
+    "speed": 0.75,
+    "requirements": [
+      "Konto bei iGraal erstellen",
+      "Einkäufe über das Portal tätigen"
+    ],
+    "steps": [
+      "Konto erstellen",
+      "Shop auswählen",
+      "Einkauf tätigen und Cashback erhalten"
+    ],
+    "tags": [
+      "Cashback",
+      "Bonusaktionen"
+    ],
+    "raw_score": 0.6939,
+    "found_at": "2026-03-07T07:44:59.814561+00:00"
+  },
+  {
+    "agent_name": "GIFT-Agent",
+    "category": "gift",
+    "title": "Produkttester bei Testerheld",
+    "description": "Testerheld bietet die Möglichkeit, Produkte kostenlos zu testen und dafür eine Vergütung zu erhalten. Die Tests sind vielfältig und reichen von Kosmetik über Haushaltswaren bis hin zu Lebensmitteln. Tester können pro Test zwischen 5 und 20 Euro verdienen, abhängig von der Art des Produkts.",
+    "url": "https://www.testerheld.de",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 60.0,
+    "reliability": 0.9,
+    "speed": 0.8,
+    "requirements": [
+      "Alter über 18",
+      "Wohnsitz in Deutschland"
+    ],
+    "steps": [
+      "Registrierung auf der Plattform",
+      "Produktauswahl und Testanfrage",
+      "Produkttests durchführen und Feedback geben"
+    ],
+    "tags": [
+      "Produkttests",
+      "Verdienstmöglichkeiten"
+    ],
+    "raw_score": 0.6914,
+    "found_at": "2026-03-07T07:44:57.626193+00:00"
+  },
+  {
+    "agent_name": "PASSIVE-Agent",
+    "category": "passive",
+    "title": "Digitale Produkte verkaufen",
+    "description": "Das Erstellen und Verkaufen digitaler Produkte wie eBooks, Templates oder Presets kann eine wertvolle Einkommensquelle sein. Nach der anfänglichen Erstellung und Vermarktung laufen die Verkäufe größtenteils passiv, solange die Produkte gut beworben werden. Plattformen wie Etsy oder Gumroad erleichtern den Verkauf.",
+    "url": "https://www.gumroad.com",
+    "effort_hours": 10.0,
+    "monthly_potential_eur": 200.0,
+    "reliability": 0.8,
+    "speed": 0.7,
+    "requirements": [
+      "Kreativität",
+      "Marketingkenntnisse"
+    ],
+    "steps": [
+      "Produkt erstellen",
+      "Online-Shop einrichten",
+      "Marketing betreiben"
+    ],
+    "tags": [
+      "Digitalprodukte",
+      "Verkauf",
+      "Einkommen"
+    ],
+    "raw_score": 0.6886,
+    "found_at": "2026-03-07T07:44:55.784823+00:00"
+  },
+  {
+    "agent_name": "SURVEY-Agent",
+    "category": "survey",
+    "title": "Prolific",
+    "description": "Prolific ist eine Plattform, die Forschern hilft, qualitativ hochwertige Umfragedaten zu sammeln. Teilnehmer können für ihre Teilnahme an verschiedenen Studien bezahlt werden, wobei die Bezahlung transparent und fair ist. Die Auszahlung erfolgt über PayPal, und es gibt kein Mindestabhebungslimit.",
+    "url": "https://www.prolific.co/",
+    "effort_hours": 2.5,
+    "monthly_potential_eur": 60.0,
+    "reliability": 0.85,
+    "speed": 0.9,
+    "requirements": [
+      "Wohnsitz in Deutschland oder EU",
+      "Mindestalter 18 Jahre"
+    ],
+    "steps": [
+      "Registrierung auf Prolific",
+      "Studien auswählen und teilnehmen",
+      "Geld auf PayPal einziehen"
+    ],
+    "tags": [
+      "Forschung",
+      "Umfragen"
+    ],
+    "raw_score": 0.6839,
+    "found_at": "2026-03-07T07:45:03.429478+00:00"
+  },
+  {
+    "agent_name": "GIG-Agent",
+    "category": "gig",
+    "title": "Social Media Management auf Fiverr",
+    "description": "Als Anfänger im Bereich Social Media Management kannst du auf Fiverr Dienstleistungen anbieten, wie das Erstellen von Posts oder das Verwalten von Social Media Accounts. Die Einstiegshürde ist niedrig und du kannst sofort anfangen, nachdem du ein Profil erstellt hast. Zudem sind die Gebühren auf Fiverr transparent und gut kalkulierbar.",
+    "url": "https://www.fiverr.com",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 75.0,
+    "reliability": 0.8,
+    "speed": 0.7,
+    "requirements": [
+      "Grundkenntnisse in Social Media",
+      "Kreativität"
+    ],
+    "steps": [
+      "Profil auf Fiverr erstellen",
+      "Dienstleistungen definieren und anbieten",
+      "Aufträge annehmen und ausführen"
+    ],
+    "tags": [
+      "Fiverr",
+      "Social Media",
+      "Freelance"
+    ],
+    "raw_score": 0.6776,
+    "found_at": "2026-03-07T07:45:07.548566+00:00"
+  },
+  {
+    "agent_name": "PASSIVE-Agent",
+    "category": "passive",
+    "title": "Print-on-Demand Merchandise",
+    "description": "Mit Print-on-Demand-Diensten wie Merch by Amazon oder Redbubble können Designs für T-Shirts, Tassen und andere Produkte erstellt und verkauft werden, ohne dass Vorabkosten entstehen. Nach der Erstellung der Designs läuft der Verkauf passiv, während die Plattform die Produktion und den Versand übernimmt.",
+    "url": "https://www.redbubble.com",
+    "effort_hours": 8.0,
+    "monthly_potential_eur": 150.0,
+    "reliability": 0.8,
+    "speed": 0.7,
+    "requirements": [
+      "Kreativität",
+      "Designsoftware"
+    ],
+    "steps": [
+      "Designs erstellen",
+      "Produkte hochladen",
+      "Marketing betreiben"
+    ],
+    "tags": [
+      "Print-on-Demand",
+      "Merchandising",
+      "Einkommen"
+    ],
+    "raw_score": 0.6694,
+    "found_at": "2026-03-07T07:44:55.784823+00:00"
+  },
+  {
+    "agent_name": "SURVEY-Agent",
+    "category": "survey",
+    "title": "MySurvey",
+    "description": "MySurvey ist eine Plattform, die den Nutzern die Möglichkeit bietet, durch das Ausfüllen von Umfragen Geld zu verdienen. Die Auszahlung erfolgt in Form von PayPal oder Gutscheinen, wobei das Mindestabhebungsziel bei 10 Euro liegt. Die Umfragen sind einfach und gut bezahlt.",
+    "url": "https://www.mysurvey.com/",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 45.0,
+    "reliability": 0.9,
+    "speed": 0.8,
+    "requirements": [
+      "Wohnsitz in Deutschland oder EU",
+      "Mindestalter 16 Jahre"
+    ],
+    "steps": [
+      "Registrierung auf MySurvey",
+      "Teilnahme an Umfragen",
+      "Auszahlung anfordern"
+    ],
+    "tags": [
+      "Umfragen",
+      "Geld verdienen"
+    ],
+    "raw_score": 0.6568,
+    "found_at": "2026-03-07T07:45:03.429478+00:00"
+  },
+  {
+    "agent_name": "GIG-Agent",
+    "category": "gig",
+    "title": "Micro-Tasks auf Amazon MTurk",
+    "description": "Amazon Mechanical Turk (MTurk) ermöglicht es dir, kleine Aufgaben, sogenannte HITs (Human Intelligence Tasks), zu erledigen, wie Umfragen oder Datenübertragungen. Die Auszahlungen sind schnell und transparent, und du kannst sofort nach der Registrierung beginnen. Die Aufgaben sind vielfältig und erfordern keine speziellen Kenntnisse.",
+    "url": "https://www.mturk.com",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 50.0,
+    "reliability": 0.85,
+    "speed": 0.8,
+    "requirements": [
+      "Internetzugang",
+      "Englischkenntnisse (für die meisten Aufgaben)"
+    ],
+    "steps": [
+      "Registrierung auf MTurk",
+      "Durchsuchen von HITs",
+      "Aufgaben erledigen und Vergütung erhalten"
+    ],
+    "tags": [
+      "MTurk",
+      "Micro-Tasks",
+      "Crowdsourcing"
+    ],
+    "raw_score": 0.6564,
+    "found_at": "2026-03-07T07:45:07.548566+00:00"
+  },
+  {
+    "agent_name": "CASHBACK-Agent",
+    "category": "cashback",
+    "title": "Payback Punkte sammeln",
+    "description": "Mit Payback können Sie bei über 650 Partnern Punkte sammeln, die in Cashback umgewandelt werden können. Bei vielen Partnern gibt es regelmäßig Aktionen mit doppelten Punkten.",
+    "url": "https://www.payback.de",
+    "effort_hours": 1.5,
+    "monthly_potential_eur": 40.0,
+    "reliability": 0.85,
+    "speed": 0.8,
+    "requirements": [
+      "Payback-Konto erstellen",
+      "Einkäufe bei Partnern tätigen"
+    ],
+    "steps": [
+      "Registrieren",
+      "Einkäufe tätigen",
+      "Punkte einlösen"
+    ],
+    "tags": [
+      "Punkte",
+      "Cashback"
+    ],
+    "raw_score": 0.6482,
+    "found_at": "2026-03-07T07:44:59.814561+00:00"
+  },
+  {
+    "agent_name": "CASHBACK-Agent",
+    "category": "cashback",
+    "title": "American Express Cashback-Kreditkarte",
+    "description": "Die American Express Karte bietet einen Signup-Bonus von 100 EUR, wenn Sie innerhalb der ersten drei Monate 1.000 EUR ausgeben. Außerdem gibt es 1% Cashback auf alle Einkäufe ohne Jahresgebühr.",
+    "url": "https://www.americanexpress.com/de",
+    "effort_hours": 1.0,
+    "monthly_potential_eur": 30.0,
+    "reliability": 0.9,
+    "speed": 0.7,
+    "requirements": [
+      "Gute Bonität",
+      "Mindestausgaben"
+    ],
+    "steps": [
+      "Karte beantragen",
+      "Einkäufe tätigen",
+      "Cashback sammeln"
+    ],
+    "tags": [
+      "Kreditkarte",
+      "Cashback"
+    ],
+    "raw_score": 0.6333,
+    "found_at": "2026-03-07T07:44:59.814561+00:00"
+  },
+  {
+    "agent_name": "CASHBACK-Agent",
+    "category": "cashback",
+    "title": "Cashback Stacking mit Payback und Kreditkarte",
+    "description": "Nutzen Sie die Vorteile von Cashback-Portalen zusammen mit einer Cashback-Kreditkarte und Payback. Durch die Kombination können Sie bis zu 15% Cashback und zusätzliche Punkte erhalten.",
+    "url": "https://www.cashback-stacking.de",
+    "effort_hours": 2.5,
+    "monthly_potential_eur": 70.0,
+    "reliability": 0.8,
+    "speed": 0.6,
+    "requirements": [
+      "Kreditkarte mit Cashback",
+      "Payback-Konto",
+      "Zugang zu Cashback-Portalen"
+    ],
+    "steps": [
+      "Kreditkarte beantragen",
+      "Payback-Konto erstellen",
+      "Einkäufe über das Portal und mit der Karte tätigen"
+    ],
+    "tags": [
+      "Stacking",
+      "Cashback"
+    ],
+    "raw_score": 0.63,
+    "found_at": "2026-03-07T07:44:59.814561+00:00"
+  },
+  {
+    "agent_name": "AIRDROP-Agent",
+    "category": "airdrop",
+    "title": "Galxe Quests",
+    "description": "Galxe bietet verschiedene Quests an, die Nutzer durch das Erfüllen einfacher Aufgaben durchführen können. Diese Quests können das Teilen von Inhalten oder das Einladen von Freunden beinhalten. Gas-Kosten sind nicht erforderlich, und das monatliche Potenzial kann 50 EUR erreichen, abhängig von der Anzahl der erfüllten Quests.",
+    "url": "https://galxe.com",
+    "effort_hours": 3.0,
+    "monthly_potential_eur": 50.0,
+    "reliability": 0.9,
+    "speed": 0.7,
+    "requirements": [
+      "Galxe-Account",
+      "Soziale Medien"
+    ],
+    "steps": [
+      "Account erstellen",
+      "Quests auswählen",
+      "Aufgaben abschließen"
+    ],
+    "tags": [
+      "Galxe",
+      "Quests",
+      "Airdrop"
+    ],
+    "raw_score": 0.628,
+    "found_at": "2026-03-07T07:44:58.628405+00:00"
+  },
+  {
+    "agent_name": "GIFT-Agent",
+    "category": "gift",
+    "title": "Gratis-Proben von Firmen anfordern",
+    "description": "Viele Firmen bieten kostenlose Proben ihrer Produkte an, um neue Kunden zu gewinnen. Dies kann von kosmetischen Produkten bis hin zu Lebensmitteln reichen. Durch das gezielte Anfordern von Proben kann man monatlich eine Vielzahl an Produkten kostenlos erhalten.",
+    "url": "https://www.proben.de",
+    "effort_hours": 1.0,
+    "monthly_potential_eur": 30.0,
+    "reliability": 0.85,
+    "speed": 0.7,
+    "requirements": [
+      "Online-Formular ausfüllen",
+      "E-Mail-Adresse"
+    ],
+    "steps": [
+      "Webseiten für Gratis-Proben besuchen",
+      "Formulare ausfüllen",
+      "Produkte erhalten"
+    ],
+    "tags": [
+      "Gratis-Proben",
+      "Produkte"
+    ],
+    "raw_score": 0.6208,
+    "found_at": "2026-03-07T07:44:57.626193+00:00"
+  },
+  {
+    "agent_name": "SURVEY-Agent",
+    "category": "survey",
+    "title": "Toluna",
+    "description": "Toluna bietet eine Möglichkeit, durch die Teilnahme an Umfragen Geld zu verdienen. Die Umfragen sind vielfältig und die Auszahlung erfolgt in Form von Gutscheinen oder Geld über PayPal. Das Mindestabhebungsziel beträgt 20 Euro, was realistisch erreichbar ist.",
+    "url": "https://www.toluna.com/",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 40.0,
+    "reliability": 0.8,
+    "speed": 0.8,
+    "requirements": [
+      "Wohnsitz in Deutschland oder EU",
+      "Mindestalter 16 Jahre"
+    ],
+    "steps": [
+      "Registrierung auf Toluna",
+      "Umfragen ausfüllen",
+      "Guthaben in Gutscheine oder Geld umwandeln"
+    ],
+    "tags": [
+      "Umfragen",
+      "Gutscheine"
+    ],
+    "raw_score": 0.6191,
+    "found_at": "2026-03-07T07:45:03.429478+00:00"
+  },
+  {
+    "agent_name": "AIRDROP-Agent",
+    "category": "airdrop",
+    "title": "Layer3 Kampagnen",
+    "description": "Layer3 bietet eine Plattform für Nutzer, um durch die Teilnahme an verschiedenen DeFi- und NFT-Kampagnen Token zu verdienen. Die Gas-Kosten sind minimal, da viele Aktivitäten direkt über Layer3 abgewickelt werden. Monatliche Verdienste können bis zu 50 EUR betragen, je nach Engagement.",
+    "url": "https://layer3.xyz",
+    "effort_hours": 4.0,
+    "monthly_potential_eur": 50.0,
+    "reliability": 0.85,
+    "speed": 0.7,
+    "requirements": [
+      "Layer3-Account",
+      "Wallet"
+    ],
+    "steps": [
+      "Account erstellen",
+      "Kampagnen durchsuchen",
+      "Teilnehmen und Aufgaben erfüllen"
+    ],
+    "tags": [
+      "Layer3",
+      "DeFi",
+      "NFT"
+    ],
+    "raw_score": 0.6051,
+    "found_at": "2026-03-07T07:44:58.628405+00:00"
+  },
+  {
+    "agent_name": "PASSIVE-Agent",
+    "category": "passive",
+    "title": "P2P-Lending auf Plattformen",
+    "description": "P2P-Lending-Plattformen ermöglichen es, direkt an Privatpersonen oder Unternehmen Geld zu verleihen und Zinsen zu verdienen. Dabei ist es wichtig, die Risiken zu beachten und diversifiziert zu investieren. Die Renditen können hoch sein, jedoch gibt es auch das Risiko von Kreditausfällen.",
+    "url": "https://www.auxmoney.com",
+    "effort_hours": 3.0,
+    "monthly_potential_eur": 75.0,
+    "reliability": 0.7,
+    "speed": 0.6,
+    "requirements": [
+      "Registrierung auf der Plattform",
+      "Startkapital ab 500 EUR"
+    ],
+    "steps": [
+      "Plattform auswählen",
+      "Kredite durchsehen",
+      "Investieren"
+    ],
+    "tags": [
+      "P2P",
+      "Kredite",
+      "Investieren"
+    ],
+    "raw_score": 0.6013,
+    "found_at": "2026-03-07T07:44:55.784823+00:00"
+  },
+  {
+    "agent_name": "GIFT-Agent",
+    "category": "gift",
+    "title": "Gratis-Testmonate bei Streaming-Diensten",
+    "description": "Viele Streaming-Dienste bieten kostenlose Testmonate an, die es Nutzern ermöglichen, ihre Inhalte ohne Kosten auszuprobieren. Dienste wie Netflix oder Amazon Prime haben oft zeitlich begrenzte Angebote, die Nutzer ausprobieren können, ohne sofort zu zahlen.",
+    "url": "https://www.netflix.com",
+    "effort_hours": 0.5,
+    "monthly_potential_eur": 10.0,
+    "reliability": 0.9,
+    "speed": 0.9,
+    "requirements": [
+      "E-Mail-Adresse",
+      "Zahlungsmethode"
+    ],
+    "steps": [
+      "Registrierung auf der Plattform",
+      "Testmonat aktivieren",
+      "Inhalte genießen"
+    ],
+    "tags": [
+      "Streaming",
+      "Testmonate"
+    ],
+    "raw_score": 0.59,
+    "found_at": "2026-03-07T07:44:57.626193+00:00"
+  },
+  {
+    "agent_name": "SURVEY-Agent",
+    "category": "survey",
+    "title": "YouGov",
+    "description": "YouGov ist eine renommierte Umfrageplattform, die für die Teilnahme an politischen und gesellschaftlichen Umfragen bezahlt. Die Auszahlungen erfolgen in Form von Punkten, die gegen Gutscheine oder Geld eingelöst werden können. Das Mindestabhebungsziel beträgt 15 Euro.",
+    "url": "https://yougov.com/",
+    "effort_hours": 2.0,
+    "monthly_potential_eur": 30.0,
+    "reliability": 0.85,
+    "speed": 0.7,
+    "requirements": [
+      "Wohnsitz in Deutschland oder EU",
+      "Mindestalter 18 Jahre"
+    ],
+    "steps": [
+      "Registrierung bei YouGov",
+      "Umfragen ausfüllen",
+      "Punkte gegen Geld oder Gutscheine einlösen"
+    ],
+    "tags": [
+      "Umfragen",
+      "Politik"
+    ],
+    "raw_score": 0.5833,
+    "found_at": "2026-03-07T07:45:03.429478+00:00"
+  },
+  {
+    "agent_name": "PASSIVE-Agent",
+    "category": "passive",
+    "title": "Affiliate Marketing",
+    "description": "Durch Affiliate-Marketing können Sie Provisionen verdienen, indem Sie Produkte oder Dienstleistungen über eigene Webseiten oder Social-Media-Kanäle bewerben. Der initiale Aufwand besteht in der Erstellung von Inhalten und dem Aufbau einer Zielgruppe, aber nach der Etablierung können die Einnahmen passiv fließen.",
+    "url": "https://www.amazon.de/associates",
+    "effort_hours": 15.0,
+    "monthly_potential_eur": 100.0,
+    "reliability": 0.8,
+    "speed": 0.5,
+    "requirements": [
+      "Webseite oder Social-Media-Kanal",
+      "Marketingkenntnisse"
+    ],
+    "steps": [
+      "Nische wählen",
+      "Inhalte erstellen",
+      "Affiliate-Links einfügen"
+    ],
+    "tags": [
+      "Affiliate",
+      "Marketing",
+      "Einkommen"
+    ],
+    "raw_score": 0.5765,
+    "found_at": "2026-03-07T07:44:55.784823+00:00"
+  },
+  {
+    "agent_name": "AIRDROP-Agent",
+    "category": "airdrop",
+    "title": "Seismic Systems Testnet",
+    "description": "Seismic Systems führt ein Testnet durch und belohnt Teilnehmer mit Token, wenn Sie das Protokoll testen. Die Gas-Kosten können variieren, aber es gibt keine direkten Kosten für die Teilnahme am Testnet. Schätzungen zufolge könnten Belohnungen bis zu 50 EUR pro Monat einbringen, abhängig von der Aktivität im Testnet.",
+    "url": "https://airdrops.io/seismic-systems-testnet",
+    "effort_hours": 5.0,
+    "monthly_potential_eur": 50.0,
+    "reliability": 0.8,
+    "speed": 0.6,
+    "requirements": [
+      "Krypto-Wallet",
+      "Interesse an Testnet-Teilnahme"
+    ],
+    "steps": [
+      "Wallet einrichten",
+      "Testnet-Token anfordern",
+      "Das Protokoll testen und Feedback geben"
+    ],
+    "tags": [
+      "Testnet",
+      "Token-Airdrop",
+      "Krypto"
+    ],
+    "raw_score": 0.5664,
+    "found_at": "2026-03-07T07:44:58.628405+00:00"
+  },
+  {
+    "agent_name": "AIRDROP-Agent",
+    "category": "airdrop",
+    "title": "Retroaktive Airdrop-Strategie für Uniswap V3",
+    "description": "Uniswap könnte bald einen weiteren Airdrop für Nutzer ankündigen, die Liquidität bereitstellen oder aktiv auf der Plattform handeln. Um sich zu qualifizieren, sollten Sie Liquidität hinzufügen oder häufige Trades durchführen. Gas-Kosten können hoch sein, aber das langfristige Verdienstpotenzial könnte 100 EUR pro Monat erreichen, wenn ein Airdrop erfolgt.",
+    "url": "https://uniswap.org",
+    "effort_hours": 6.0,
+    "monthly_potential_eur": 100.0,
+    "reliability": 0.6,
+    "speed": 0.5,
+    "requirements": [
+      "Krypto-Wallet",
+      "Liquidität bereitstellen oder handeln"
+    ],
+    "steps": [
+      "Wallet einrichten",
+      "Liquidität auf Uniswap bereitstellen",
+      "Regelmäßig handeln"
+    ],
+    "tags": [
+      "Uniswap",
+      "Retroaktive Airdrops",
+      "Liquidität"
+    ],
+    "raw_score": 0.5515,
+    "found_at": "2026-03-07T07:44:58.628405+00:00"
+  },
+  {
+    "agent_name": "GIFT-Agent",
+    "category": "gift",
+    "title": "Gewinnspiele auf Facebook und Instagram",
+    "description": "Soziale Medien sind voll von Gewinnspielen, die oft nur geringe Teilnahmebedingungen haben. Einige Marken veranstalten regelmäßig Wettbewerbe mit attraktiven Preisen und weniger Teilnehmern, was die Gewinnchancen erhöht. Es ist eine einfache Möglichkeit, um kostenlose Produkte zu gewinnen.",
+    "url": "https://www.instagram.com",
+    "effort_hours": 1.0,
+    "monthly_potential_eur": 25.0,
+    "reliability": 0.7,
+    "speed": 0.5,
+    "requirements": [
+      "Aktives Social-Media-Konto",
+      "Teilnahme an Gewinnspielen"
+    ],
+    "steps": [
+      "Soziale Medien durchforsten",
+      "An Gewinnspielen teilnehmen",
+      "Auf Ergebnisse warten"
+    ],
+    "tags": [
+      "Gewinnspiele",
+      "Social Media"
+    ],
+    "raw_score": 0.5209,
+    "found_at": "2026-03-07T07:44:57.626193+00:00"
+  }
+]

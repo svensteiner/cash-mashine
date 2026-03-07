@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-03-07T07:45:07.561249+00:00",
+  "agents": {
+    "SURVEY-Agent": {
+      "status": "done",
+      "ideas_found": 6,
+      "top_idea": null
+    },
+    "AIRDROP-Agent": {
+      "status": "done",
+      "ideas_found": 5,
+      "top_idea": null
+    },
+    "GIFT-Agent": {
+      "status": "done",
+      "ideas_found": 6,
+      "top_idea": null
+    },
+    "CASHBACK-Agent": {
+      "status": "done",
+      "ideas_found": 6,
+      "top_idea": null
+    },
+    "PASSIVE-Agent": {
+      "status": "done",
+      "ideas_found": 5,
+      "top_idea": null
+    },
+    "GIG-Agent": {
+      "status": "done",
+      "ideas_found": 6,
+      "top_idea": null
+    }
+  },
+  "total_ideas": 34,
+  "agents_done": 6,
+  "agents_total": 6
+}

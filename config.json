@@ -1,0 +1,21 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "model_brain": "openai/gpt-4o-mini",
+  "race_interval_minutes": 60,
+  "max_rounds": 0,
+  "agents": {
+    "survey": {"enabled": true, "max_ideas": 6},
+    "airdrop": {"enabled": true, "max_ideas": 5},
+    "gift": {"enabled": true, "max_ideas": 6},
+    "cashback": {"enabled": true, "max_ideas": 6},
+    "passive": {"enabled": true, "max_ideas": 5},
+    "gig": {"enabled": true, "max_ideas": 6}
+  },
+  "scoring": {
+    "weight_earnings": 0.35,
+    "weight_reliability": 0.25,
+    "weight_speed": 0.20,
+    "weight_efficiency": 0.20,
+    "max_monthly_eur_reference": 500.0
+  }
+}

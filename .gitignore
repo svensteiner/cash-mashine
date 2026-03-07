@@ -1,0 +1,42 @@
+# API Keys & Secrets — NIEMALS committen!
+.env
+*.env
+*.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Browser Data (Cookies/Sessions)
+browser_data/
+*/browser_data/
+
+# State & Cache (persoenlich, nicht teilen)
+state/yield_cache.json
+state/galxe_cache.json
+state/layer3_cache.json
+bots/*/state/yield_cache.json
+bots/*/state/galxe_cache.json
+bots/*/state/layer3_cache.json
+
+# Logs
+*.log
+logs/
+*/logs/
+
+# Lock Files
+*.lock
+
+# Reports (persoenlich)
+reports/
+*/reports/
+
+# Windows
+Thumbs.db
+Desktop.ini
