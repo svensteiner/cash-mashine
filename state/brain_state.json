@@ -1,60 +1,59 @@
 {
-  "last_decision_at": "2026-03-27T09:16:25.817775+00:00",
+  "last_decision_at": "2026-03-28T18:52:25.845147+00:00",
   "winner": {
     "agent_name": "GIG-Agent",
     "category": "gig",
     "title": "Lokale Gigs auf TaskRabbit",
-    "description": "TaskRabbit bietet dir die Möglichkeit, lokale Dienstleistungen anzubieten, wie beispielsweise Möbelmontage, Reinigung oder Umzüge. Du kannst deine Fähigkeiten und Verfügbarkeiten angeben und direkt mit Kunden in deiner Nähe kommunizieren. Das ist eine großartige Möglichkeit, schnell Geld zu verdienen, ohne spezielle Vorkenntnisse.",
+    "description": "Auf TaskRabbit kannst du lokale Dienstleistungen anbieten, wie z.B. UmzÃ¼ge, MÃ¶belmontage oder einfache Reparaturen. Du kannst sofort loslegen, indem du dein Profil erstellst und deine verfÃ¼gbaren Dienstleistungen anbietest. Die Bezahlung erfolgt schnell nach Abschluss der Aufgaben.",
     "url": "https://www.taskrabbit.com",
-    "effort_hours": 2.0,
-    "monthly_potential_eur": 200.0,
-    "reliability": 0.9,
-    "speed": 0.8,
+    "effort_hours": 4.0,
+    "monthly_potential_eur": 250.0,
+    "reliability": 0.85,
+    "speed": 0.9,
     "requirements": [
-      "Zugänglichkeit für lokale Einsätze",
-      "Freundliches Auftreten"
+      "Zugriff auf ein Fahrzeug (optional)",
+      "Handwerkliches Geschick (je nach Gig)"
     ],
     "steps": [
-      "Registriere dich auf TaskRabbit",
-      "Erstelle dein Profil und biete Dienstleistungen an",
-      "Nehme Aufträge an und führe sie aus"
+      "Registrierung auf TaskRabbit",
+      "Profil erstellen",
+      "AuftrÃ¤ge annehmen"
     ],
     "tags": [
-      "lokale Gigs",
-      "TaskRabbit",
-      "flexibel"
+      "Lokale Gigs",
+      "TaskRabbit"
     ],
-    "raw_score": 0.8836,
-    "found_at": "2026-03-27T09:16:14.850370+00:00"
+    "raw_score": 0.8598,
+    "found_at": "2026-03-28T18:52:18.527220+00:00"
   },
   "plan": {
     "title": "Umsetzungsplan: Lokale Gigs auf TaskRabbit",
-    "summary": "Mit TaskRabbit kannst du lokale Dienstleistungen anbieten und schnell Geld verdienen. Dieser Umsetzungsplan hilft dir, in kurzer Zeit erste Aufträge zu gewinnen und deine Einnahmen zu steigern.",
+    "summary": "Mit TaskRabbit kannst du schnell und einfach lokale Dienstleistungen anbieten, um zusÃ¤tzliches Einkommen zu generieren. Der Aktionsplan hilft dir, in kurzer Zeit dein Profil zu erstellen und erste AuftrÃ¤ge zu akquirieren.",
     "day1_actions": [
-      "Registriere dich auf TaskRabbit und erstelle ein Benutzerkonto.",
-      "Fülle dein Profil aus und lade ein freundliches Profilbild hoch.",
-      "Wähle die Dienstleistungen aus, die du anbieten möchtest, und setze faire Preise."
+      "Registriere dich auf TaskRabbit und erstelle ein Benutzerkonto",
+      "FÃ¼lle dein Profil vollstÃ¤ndig aus und lade ein ansprechendes Profilbild hoch",
+      "Definiere die Dienstleistungen, die du anbieten mÃ¶chtest, und erstelle eine PreisÃ¼bersicht"
     ],
     "week1_goals": [
-      "Mindestens 5 Dienstleistungen erfolgreich einstellen.",
-      "Erste 2 Aufträge annehmen und ausführen."
+      "Erste AuftrÃ¤ge annehmen und erfolgreich abschlieÃŸen",
+      "Mindestens 5 Bewertungen von Kunden erhalten"
     ],
-    "month1_target_eur": 200.0,
+    "month1_target_eur": 50.0,
     "tools_needed": [
       "TaskRabbit-Konto",
-      "Smartphone oder Computer für die Kommunikation"
+      "Smartphone oder Laptop fÃ¼r die Kommunikation"
     ],
     "pitfalls": [
-      "Unrealistische Preisgestaltung, die potenzielle Kunden abschreckt.",
-      "Unzureichende Kommunikation mit den Kunden, die zu Missverständnissen führen kann."
+      "Unzureichende Profilbeschreibung, die potenzielle Kunden abschrecken kann",
+      "Zu hohe Preise im Vergleich zu anderen Anbietern"
     ],
-    "success_metric": "Erreichen von mindestens 5 positiven Bewertungen innerhalb des ersten Monats.",
-    "automation_potential": "Automatisiere die Terminplanung und Auftragsannahme durch Nutzung von Kalender-Apps und Erinnerungen.",
+    "success_metric": "Erhalt von positiven Bewertungen und eine steigende Anzahl an AuftrÃ¤gen innerhalb der ersten Wochen",
+    "automation_potential": "Automatisierung der Auftragsannahme durch Nutzung von Benachrichtigungen und Vorlagen fÃ¼r die Kommunikation mit Kunden",
     "estimated_first_euro_days": 7
   },
   "race_meta": {
-    "race_number": 36,
-    "duration_s": 26.61,
+    "race_number": 1,
+    "duration_s": 24.16,
     "total_ideas": 34
   }
 }

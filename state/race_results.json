@@ -1,1854 +1,336 @@
 {
-  "total_races": 36,
+  "total_races": 1,
   "last_race": {
-    "timestamp": "2026-03-27T09:16:25.820280+00:00",
-    "race_number": 36,
-    "duration_s": 26.61,
+    "timestamp": "2026-03-28T18:52:25.863020+00:00",
+    "race_number": 1,
+    "duration_s": 24.16,
     "total_ideas": 34,
     "top5": [
       {
         "agent_name": "GIG-Agent",
         "category": "gig",
         "title": "Lokale Gigs auf TaskRabbit",
-        "description": "TaskRabbit bietet dir die Möglichkeit, lokale Dienstleistungen anzubieten, wie beispielsweise Möbelmontage, Reinigung oder Umzüge. Du kannst deine Fähigkeiten und Verfügbarkeiten angeben und direkt mit Kunden in deiner Nähe kommunizieren. Das ist eine großartige Möglichkeit, schnell Geld zu verdienen, ohne spezielle Vorkenntnisse.",
+        "description": "Auf TaskRabbit kannst du lokale Dienstleistungen anbieten, wie z.B. UmzÃ¼ge, MÃ¶belmontage oder einfache Reparaturen. Du kannst sofort loslegen, indem du dein Profil erstellst und deine verfÃ¼gbaren Dienstleistungen anbietest. Die Bezahlung erfolgt schnell nach Abschluss der Aufgaben.",
         "url": "https://www.taskrabbit.com",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 200.0,
-        "reliability": 0.9,
-        "speed": 0.8,
+        "effort_hours": 4.0,
+        "monthly_potential_eur": 250.0,
+        "reliability": 0.85,
+        "speed": 0.9,
         "requirements": [
-          "Zugänglichkeit für lokale Einsätze",
-          "Freundliches Auftreten"
+          "Zugriff auf ein Fahrzeug (optional)",
+          "Handwerkliches Geschick (je nach Gig)"
         ],
         "steps": [
-          "Registriere dich auf TaskRabbit",
-          "Erstelle dein Profil und biete Dienstleistungen an",
-          "Nehme Aufträge an und führe sie aus"
+          "Registrierung auf TaskRabbit",
+          "Profil erstellen",
+          "AuftrÃ¤ge annehmen"
         ],
         "tags": [
-          "lokale Gigs",
-          "TaskRabbit",
-          "flexibel"
+          "Lokale Gigs",
+          "TaskRabbit"
         ],
-        "raw_score": 0.8836,
-        "found_at": "2026-03-27T09:16:14.850370+00:00"
+        "raw_score": 0.8598,
+        "found_at": "2026-03-28T18:52:18.527220+00:00"
       },
       {
-        "agent_name": "GIG-Agent",
-        "category": "gig",
-        "title": "Virtuelle Assistenz auf Fiverr",
-        "description": "Als virtuelle Assistenz kannst du Dienstleistungen wie Terminplanung, E-Mail-Verwaltung oder Kundensupport anbieten. Fiverr ist eine Plattform, die es dir ermöglicht, deine Dienste zu bewerben und Kunden zu gewinnen, ohne spezielle Vorkenntnisse. Du kannst sofort anfangen, deine ersten Aufträge zu akquirieren.",
-        "url": "https://www.fiverr.com/categories/admin/virtual-assistant",
-        "effort_hours": 2.0,
+        "agent_name": "CASHBACK-Agent",
+        "category": "cashback",
+        "title": "Girokonto-Wechselbonus (DKB)",
+        "description": "Die Deutsche Kreditbank (DKB) bietet derzeit einen Wechselbonus von 150 EUR fÃ¼r neue Kunden, die ihr Girokonto erÃ¶ffnen und eine Mindestanzahl an Transaktionen durchfÃ¼hren. Dies ist eine einfache MÃ¶glichkeit, einen einmaligen Bonus zu erhalten.",
+        "url": "https://www.dkb.de/",
+        "effort_hours": 3.0,
         "monthly_potential_eur": 150.0,
-        "reliability": 0.85,
-        "speed": 0.7,
+        "reliability": 1.0,
+        "speed": 0.8,
         "requirements": [
-          "Gute Kommunikationsfähigkeiten",
-          "Zugang zu einem Computer"
+          "Girokonto bei DKB erÃ¶ffnen",
+          "Mindestanzahl an Transaktionen durchfÃ¼hren"
         ],
         "steps": [
-          "Erstelle ein Profil auf Fiverr",
-          "Biete deine Dienstleistungen an",
-          "Akquiriere Aufträge und erhalte Zahlungen"
+          "Konto erÃ¶ffnen",
+          "Geld einzahlen",
+          "Transaktionen durchfÃ¼hren"
         ],
         "tags": [
-          "Virtuelle Assistenz",
-          "Fiverr",
-          "Kundenservice"
+          "Girokonto",
+          "Wechselbonus",
+          "Bank"
         ],
-        "raw_score": 0.8225,
-        "found_at": "2026-03-27T09:16:14.850370+00:00"
+        "raw_score": 0.8175,
+        "found_at": "2026-03-28T18:52:15.642442+00:00"
       },
       {
         "agent_name": "GIG-Agent",
         "category": "gig",
-        "title": "Datenannotation auf Clickworker",
-        "description": "Clickworker ermöglicht es dir, einfache Aufgaben zur Datenannotation durchzuführen, wie das Kategorisieren von Bildern oder das Schreiben von kurzen Texten. Diese Aufgaben erfordern keine speziellen Kenntnisse und können flexibel von zu Hause aus erledigt werden. Du kannst sofort mit dem Verdienen beginnen, indem du dich auf der Plattform registrierst und die verfügbaren Aufgaben auswählst.",
-        "url": "https://www.clickworker.com/de",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 100.0,
-        "reliability": 0.9,
-        "speed": 0.8,
-        "requirements": [
-          "Internetverbindung",
-          "Grundkenntnisse im Umgang mit Computern"
-        ],
-        "steps": [
-          "Registriere dich auf Clickworker",
-          "Wähle verfügbare Aufgaben aus",
-          "Führe die Aufgaben aus und erhalte Vergütung"
-        ],
-        "tags": [
-          "Datenannotation",
-          "Clickworker",
-          "flexibel"
-        ],
-        "raw_score": 0.7698,
-        "found_at": "2026-03-27T09:16:14.850370+00:00"
-      },
-      {
-        "agent_name": "SURVEY-Agent",
-        "category": "survey",
-        "title": "Testbirds",
-        "description": "Testbirds bietet die Möglichkeit, an User-Testing-Projekten teilzunehmen und dabei Geld zu verdienen. Tester können ihre Meinungen zu Websites und Apps abgeben und dafür eine Vergütung erhalten. Es ist eine großartige Möglichkeit, direktes Feedback zu geben und dabei Geld zu verdienen.",
-        "url": "https://www.testbirds.com",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 100.0,
-        "reliability": 0.85,
-        "speed": 0.8,
-        "requirements": [
-          "Mindestens 18 Jahre alt",
-          "Zugang zu Internet und Gerät"
-        ],
-        "steps": [
-          "Registrierung auf der Website",
-          "Projekte auswählen",
-          "Feedback geben und Vergütung erhalten"
-        ],
-        "tags": [
-          "User Testing",
-          "Feedback"
-        ],
-        "raw_score": 0.7573,
-        "found_at": "2026-03-27T09:16:13.483200+00:00"
-      },
-      {
-        "agent_name": "GIG-Agent",
-        "category": "gig",
-        "title": "Social Media Management",
-        "description": "Social Media Management für kleine Unternehmen oder Einzelpersonen ist eine gefragte Dienstleistung. Du kannst deine Dienste auf Plattformen wie Fiverr oder Upwork anbieten, ohne spezielle Vorkenntnisse. Die Erstellung und Planung von Inhalten kann einfach sein und dir ein gutes Einkommen bieten.",
-        "url": "https://www.fiverr.com/categories/social-media",
+        "title": "Daten-Testen auf Scale AI",
+        "description": "Scale AI bietet die MÃ¶glichkeit, Daten fÃ¼r KI-Modelle zu testen und zu Ã¼berprÃ¼fen. Die Aufgaben sind einfach und erfordern keine speziellen Kenntnisse. Du kannst sofort beginnen und wirst pro erfolgreich abgeschlossenem Test bezahlt.",
+        "url": "https://scale.com",
         "effort_hours": 2.0,
         "monthly_potential_eur": 120.0,
-        "reliability": 0.8,
-        "speed": 0.6,
+        "reliability": 0.9,
+        "speed": 0.8,
         "requirements": [
-          "Kenntnisse in Social Media",
-          "Zugang zu Social Media Plattformen"
+          "Zugriff auf einen Computer",
+          "Internetverbindung"
         ],
         "steps": [
-          "Erstelle ein Profil auf Fiverr oder Upwork",
-          "Biete deine Social Media Dienste an",
-          "Akquiriere Kunden und erstelle Inhalte"
+          "Registrierung auf Scale AI",
+          "Schulung durchlaufen",
+          "Aufgaben annehmen"
+        ],
+        "tags": [
+          "Daten-Testen",
+          "KI"
+        ],
+        "raw_score": 0.805,
+        "found_at": "2026-03-28T18:52:18.527216+00:00"
+      },
+      {
+        "agent_name": "GIG-Agent",
+        "category": "gig",
+        "title": "Social Media Management auf Upwork",
+        "description": "Auf Upwork kannst du fÃ¼r kleine Unternehmen Social Media Management anbieten. Du kannst Inhalte erstellen und planen, um die Online-PrÃ¤senz zu verbessern. Vorkenntnisse sind nicht unbedingt erforderlich, und du kannst schnell mit kleinen AuftrÃ¤gen beginnen.",
+        "url": "https://www.upwork.com",
+        "effort_hours": 3.0,
+        "monthly_potential_eur": 200.0,
+        "reliability": 0.85,
+        "speed": 0.6,
+        "requirements": [
+          "Kenntnis der sozialen Medien",
+          "Internetverbindung"
+        ],
+        "steps": [
+          "Profil erstellen",
+          "Dienstleistungen anbieten",
+          "AuftrÃ¤ge annehmen"
         ],
         "tags": [
           "Social Media",
-          "Content Creation",
-          "Fiverr"
+          "Upwork"
         ],
-        "raw_score": 0.74,
-        "found_at": "2026-03-27T09:16:14.850370+00:00"
+        "raw_score": 0.7977,
+        "found_at": "2026-03-28T18:52:18.527212+00:00"
+      },
+      {
+        "agent_name": "PASSIVE-Agent",
+        "category": "passive",
+        "title": "Affiliate Marketing",
+        "description": "Affiliate Marketing ermÃ¶glicht es Ihnen, durch das Bewerben von Produkten oder Dienstleistungen Geld zu verdienen. Sie erhalten eine Provision fÃ¼r jeden Verkauf, der Ã¼ber Ihren speziellen Link generiert wird. Dies kann Ã¼ber eigene Webseiten oder Social Media-KanÃ¤le geschehen.",
+        "url": "https://www.amazon.de/associates",
+        "effort_hours": 5.0,
+        "monthly_potential_eur": 200.0,
+        "reliability": 0.85,
+        "speed": 0.8,
+        "requirements": [
+          "Website oder Social Media-Kanal",
+          "Affiliate-Programme beitreten"
+        ],
+        "steps": [
+          "Nische auswÃ¤hlen",
+          "Produkte recherchieren",
+          "Inhalte erstellen und Links einfÃ¼gen"
+        ],
+        "tags": [
+          "Marketing",
+          "Affiliate",
+          "E-Commerce"
+        ],
+        "raw_score": 0.7711,
+        "found_at": "2026-03-28T18:52:14.325613+00:00"
       }
     ],
     "winner": {
       "agent_name": "GIG-Agent",
       "category": "gig",
       "title": "Lokale Gigs auf TaskRabbit",
-      "description": "TaskRabbit bietet dir die Möglichkeit, lokale Dienstleistungen anzubieten, wie beispielsweise Möbelmontage, Reinigung oder Umzüge. Du kannst deine Fähigkeiten und Verfügbarkeiten angeben und direkt mit Kunden in deiner Nähe kommunizieren. Das ist eine großartige Möglichkeit, schnell Geld zu verdienen, ohne spezielle Vorkenntnisse.",
+      "description": "Auf TaskRabbit kannst du lokale Dienstleistungen anbieten, wie z.B. UmzÃ¼ge, MÃ¶belmontage oder einfache Reparaturen. Du kannst sofort loslegen, indem du dein Profil erstellst und deine verfÃ¼gbaren Dienstleistungen anbietest. Die Bezahlung erfolgt schnell nach Abschluss der Aufgaben.",
       "url": "https://www.taskrabbit.com",
-      "effort_hours": 2.0,
-      "monthly_potential_eur": 200.0,
-      "reliability": 0.9,
-      "speed": 0.8,
+      "effort_hours": 4.0,
+      "monthly_potential_eur": 250.0,
+      "reliability": 0.85,
+      "speed": 0.9,
       "requirements": [
-        "Zugänglichkeit für lokale Einsätze",
-        "Freundliches Auftreten"
+        "Zugriff auf ein Fahrzeug (optional)",
+        "Handwerkliches Geschick (je nach Gig)"
       ],
       "steps": [
-        "Registriere dich auf TaskRabbit",
-        "Erstelle dein Profil und biete Dienstleistungen an",
-        "Nehme Aufträge an und führe sie aus"
+        "Registrierung auf TaskRabbit",
+        "Profil erstellen",
+        "AuftrÃ¤ge annehmen"
       ],
       "tags": [
-        "lokale Gigs",
-        "TaskRabbit",
-        "flexibel"
+        "Lokale Gigs",
+        "TaskRabbit"
       ],
-      "raw_score": 0.8836,
-      "found_at": "2026-03-27T09:16:14.850370+00:00"
+      "raw_score": 0.8598,
+      "found_at": "2026-03-28T18:52:18.527220+00:00"
     }
   },
   "history": [
     {
-      "timestamp": "2026-03-25T15:08:35.610611+00:00",
-      "race_number": 27,
-      "duration_s": 37.73,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "Girokonto-Wechselbonus",
-          "description": "Aktuell bietet die Deutsche Bank einen Wechselbonus von 150 EUR für neue Kunden, die ein Girokonto eröffnen. Dies ist eine einfache Möglichkeit, zusätzliches Geld zu erhalten, wenn man bereit ist, seine Bank zu wechseln.",
-          "url": "https://www.deutsche-bank.de",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 1.0,
-          "speed": 0.9,
-          "requirements": [
-            "Wechsel des Girokontos",
-            "Einhaltung der Bonusbedingungen"
-          ],
-          "steps": [
-            "Beantrage das Girokonto",
-            "Schließe den Wechsel ab",
-            "Erhalte den Bonus"
-          ],
-          "tags": [
-            "girokonto",
-            "wechselbonus"
-          ],
-          "raw_score": 0.9125,
-          "found_at": "2026-03-25T15:08:24.392564+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Kleinaufträge auf TaskRabbit",
-          "description": "Auf TaskRabbit kannst du lokale Dienstleistungen anbieten, wie z.B. Möbelmontage, Umzüge oder Gartenarbeit. Diese Plattform ermöglicht es dir, schnell Geld zu verdienen, indem du deine Fähigkeiten in der Nachbarschaft anbietest. Es sind keine speziellen Qualifikationen erforderlich, lediglich handwerkliches Geschick.",
-          "url": "https://www.taskrabbit.com/",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 0.9,
-          "speed": 0.9,
-          "requirements": [
-            "Zugang zu Transportmittel",
-            "Handwerkliche Fähigkeiten"
-          ],
-          "steps": [
-            "Registriere dich auf TaskRabbit",
-            "Wähle die Dienstleistungen aus, die du anbieten möchtest",
-            "Beginne mit der Bearbeitung von Anfragen"
-          ],
-          "tags": [
-            "Lokale Gigs",
-            "TaskRabbit",
-            "Handwerk"
-          ],
-          "raw_score": 0.9036,
-          "found_at": "2026-03-25T15:08:29.766083+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Datenannotation auf Clickworker",
-          "description": "Auf Clickworker kannst du Daten annotieren, indem du Bilder, Texte oder Videos kategorisierst oder beschriftest. Diese Aufgaben erfordern keine speziellen Vorkenntnisse und können flexibel von zu Hause aus erledigt werden. Du verdienst pro Aufgabe, was dir ermöglicht, bei höherem Arbeitsaufwand auch mehr zu verdienen.",
-          "url": "https://www.clickworker.com/de/",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 100.0,
-          "reliability": 1.0,
-          "speed": 0.8,
-          "requirements": [
-            "Zugang zu einem Computer",
-            "Internetverbindung"
-          ],
-          "steps": [
-            "Registriere dich auf Clickworker",
-            "Wähle Aufgaben aus",
-            "Erledige die Aufgaben und reiche sie ein"
-          ],
-          "tags": [
-            "Datenannotation",
-            "Clickworker",
-            "Remote"
-          ],
-          "raw_score": 0.7948,
-          "found_at": "2026-03-25T15:08:29.766083+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Social Media Management auf Fiverr",
-          "description": "Auf Fiverr kannst du Social Media Management-Dienste anbieten, indem du Posts planst, Inhalte erstellst und Engagement mit der Community förderst. Du benötigst keine speziellen Vorkenntnisse, nur ein gutes Gefühl für Social Media. Dies ist eine großartige Möglichkeit, um schnell Kunden zu gewinnen und Einnahmen zu generieren.",
-          "url": "https://www.fiverr.com/",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 120.0,
-          "reliability": 0.8,
-          "speed": 0.8,
-          "requirements": [
-            "Verständnis für Social Media Plattformen",
-            "Kreativität"
-          ],
-          "steps": [
-            "Erstelle ein Fiverr-Profil",
-            "Gestalte dein Angebot",
-            "Beginne mit der Akquise von Kunden"
-          ],
-          "tags": [
-            "Social Media",
-            "Fiverr",
-            "Content Creation"
-          ],
-          "raw_score": 0.78,
-          "found_at": "2026-03-25T15:08:29.766083+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Virtuelle Assistenz auf Upwork",
-          "description": "Als virtuelle Assistenz kannst du administrative Aufgaben für verschiedene Kunden übernehmen, wie z.B. E-Mail-Management, Terminplanung oder Kundenkommunikation. Diese Tätigkeit erfordert keine besonderen Qualifikationen und du kannst sofort mit der Arbeit beginnen. Upwork bietet dir die Möglichkeit, dir ein Portfolio aufzubauen und Kunden zu finden.",
-          "url": "https://www.upwork.com/",
-          "effort_hours": 3.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.9,
-          "speed": 0.7,
-          "requirements": [
-            "Gute Kommunikationsfähigkeiten",
-            "Zugang zu einem Computer"
-          ],
-          "steps": [
-            "Erstelle ein Profil auf Upwork",
-            "Biete deine Dienstleistungen an",
-            "Akquiriere Kunden und beginne mit der Arbeit"
-          ],
-          "tags": [
-            "Virtuelle Assistenz",
-            "Upwork",
-            "Remote"
-          ],
-          "raw_score": 0.7725,
-          "found_at": "2026-03-25T15:08:29.766083+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "CASHBACK-Agent",
-        "category": "cashback",
-        "title": "Girokonto-Wechselbonus",
-        "description": "Aktuell bietet die Deutsche Bank einen Wechselbonus von 150 EUR für neue Kunden, die ein Girokonto eröffnen. Dies ist eine einfache Möglichkeit, zusätzliches Geld zu erhalten, wenn man bereit ist, seine Bank zu wechseln.",
-        "url": "https://www.deutsche-bank.de",
-        "effort_hours": 1.0,
-        "monthly_potential_eur": 150.0,
-        "reliability": 1.0,
-        "speed": 0.9,
-        "requirements": [
-          "Wechsel des Girokontos",
-          "Einhaltung der Bonusbedingungen"
-        ],
-        "steps": [
-          "Beantrage das Girokonto",
-          "Schließe den Wechsel ab",
-          "Erhalte den Bonus"
-        ],
-        "tags": [
-          "girokonto",
-          "wechselbonus"
-        ],
-        "raw_score": 0.9125,
-        "found_at": "2026-03-25T15:08:24.392564+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-25T16:09:10.544777+00:00",
-      "race_number": 28,
-      "duration_s": 29.32,
+      "timestamp": "2026-03-28T18:52:25.863020+00:00",
+      "race_number": 1,
+      "duration_s": 24.16,
       "total_ideas": 34,
       "top5": [
         {
           "agent_name": "GIG-Agent",
           "category": "gig",
-          "title": "Lokale Gigs bei TaskRabbit",
-          "description": "TaskRabbit ermöglicht es dir, lokale Dienstleistungen anzubieten, wie z.B. Umzüge, Möbelaufbau oder Reinigungsdienste. Du kannst sofort beginnen und deine Verfügbarkeit selbst festlegen. Es gibt viele Anfragen in städtischen Gebieten in Deutschland.",
+          "title": "Lokale Gigs auf TaskRabbit",
+          "description": "Auf TaskRabbit kannst du lokale Dienstleistungen anbieten, wie z.B. UmzÃ¼ge, MÃ¶belmontage oder einfache Reparaturen. Du kannst sofort loslegen, indem du dein Profil erstellst und deine verfÃ¼gbaren Dienstleistungen anbietest. Die Bezahlung erfolgt schnell nach Abschluss der Aufgaben.",
           "url": "https://www.taskrabbit.com",
           "effort_hours": 4.0,
-          "monthly_potential_eur": 300.0,
-          "reliability": 0.9,
+          "monthly_potential_eur": 250.0,
+          "reliability": 0.85,
           "speed": 0.9,
           "requirements": [
-            "Führerschein (optional)",
-            "Körperliche Fitness (je nach Aufgabe)"
+            "Zugriff auf ein Fahrzeug (optional)",
+            "Handwerkliches Geschick (je nach Gig)"
           ],
           "steps": [
-            "Registriere dich auf TaskRabbit",
-            "Biete deine Dienste an",
-            "Nimm Aufträge an und erhalte Vergütung"
+            "Registrierung auf TaskRabbit",
+            "Profil erstellen",
+            "AuftrÃ¤ge annehmen"
           ],
           "tags": [
             "Lokale Gigs",
-            "TaskRabbit",
-            "Flexibel"
+            "TaskRabbit"
           ],
-          "raw_score": 0.9138,
-          "found_at": "2026-03-25T16:09:02.980097+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Willkommensbonus bei N26",
-          "description": "Die Online-Bank N26 bietet einen Willkommensbonus für neue Kunden, die ein Konto eröffnen. Nach der Erfüllung bestimmter Bedingungen kann man einen Bonus von bis zu 100 Euro erhalten. Das Konto ist zudem kostenlos.",
-          "url": "https://n26.com",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 100.0,
-          "reliability": 1.0,
-          "speed": 0.9,
-          "requirements": [
-            "Wohnsitz in der EU",
-            "Mindestens 18 Jahre alt"
-          ],
-          "steps": [
-            "Konto eröffnen",
-            "Identitätsprüfung durchführen",
-            "Bedingungen erfüllen für den Bonus"
-          ],
-          "tags": [
-            "Bankkonto",
-            "Willkommensbonus",
-            "Einkommen"
-          ],
-          "raw_score": 0.8898,
-          "found_at": "2026-03-25T16:09:04.318593+00:00"
+          "raw_score": 0.8598,
+          "found_at": "2026-03-28T18:52:18.527220+00:00"
         },
         {
           "agent_name": "CASHBACK-Agent",
           "category": "cashback",
-          "title": "Girokonto-Wechselbonus",
-          "description": "Die DKB bietet derzeit einen Wechselbonus von 150 EUR für neue Kunden, die ein Girokonto eröffnen und einen monatlichen Geldeingang von 700 EUR nachweisen. Dies ist eine einfache Möglichkeit, ohne zusätzliche Kosten Geld zu verdienen.",
-          "url": "https://www.dkb.de",
-          "effort_hours": 1.5,
+          "title": "Girokonto-Wechselbonus (DKB)",
+          "description": "Die Deutsche Kreditbank (DKB) bietet derzeit einen Wechselbonus von 150 EUR fÃ¼r neue Kunden, die ihr Girokonto erÃ¶ffnen und eine Mindestanzahl an Transaktionen durchfÃ¼hren. Dies ist eine einfache MÃ¶glichkeit, einen einmaligen Bonus zu erhalten.",
+          "url": "https://www.dkb.de/",
+          "effort_hours": 3.0,
           "monthly_potential_eur": 150.0,
-          "reliability": 0.9,
+          "reliability": 1.0,
           "speed": 0.8,
           "requirements": [
-            "Neukunde bei DKB",
-            "Monatlicher Geldeingang von 700 EUR"
+            "Girokonto bei DKB erÃ¶ffnen",
+            "Mindestanzahl an Transaktionen durchfÃ¼hren"
           ],
           "steps": [
-            "Eröffne ein Girokonto bei DKB",
-            "Nachweis des Geldeingangs",
-            "Erhalte den Wechselbonus"
+            "Konto erÃ¶ffnen",
+            "Geld einzahlen",
+            "Transaktionen durchfÃ¼hren"
           ],
           "tags": [
             "Girokonto",
             "Wechselbonus",
-            "Ersparnis"
+            "Bank"
           ],
-          "raw_score": 0.8675,
-          "found_at": "2026-03-25T16:09:05.557311+00:00"
+          "raw_score": 0.8175,
+          "found_at": "2026-03-28T18:52:15.642442+00:00"
         },
         {
           "agent_name": "GIG-Agent",
           "category": "gig",
-          "title": "Virtuelle Assistenz auf Fiverr",
-          "description": "Als virtuelle Assistenz kannst du administrative Aufgaben für Firmen oder Einzelpersonen übernehmen, wie z.B. E-Mail-Management oder Terminplanung. Du kannst deine Dienstleistungen auf Fiverr anbieten und schnell erste Aufträge erhalten.",
-          "url": "https://www.fiverr.com",
+          "title": "Daten-Testen auf Scale AI",
+          "description": "Scale AI bietet die MÃ¶glichkeit, Daten fÃ¼r KI-Modelle zu testen und zu Ã¼berprÃ¼fen. Die Aufgaben sind einfach und erfordern keine speziellen Kenntnisse. Du kannst sofort beginnen und wirst pro erfolgreich abgeschlossenem Test bezahlt.",
+          "url": "https://scale.com",
           "effort_hours": 2.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 0.8,
-          "speed": 0.8,
-          "requirements": [
-            "Gute Kommunikationsfähigkeiten",
-            "Computer"
-          ],
-          "steps": [
-            "Erstelle ein Fiverr-Profil",
-            "Biete deine Dienste als virtuelle Assistenz an",
-            "Bearbeite Aufträge und erhalte Vergütung"
-          ],
-          "tags": [
-            "Virtuelle Assistenz",
-            "Fiverr",
-            "Flexibel"
-          ],
-          "raw_score": 0.8586,
-          "found_at": "2026-03-25T16:09:02.980097+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Social Media Management für kleine Unternehmen",
-          "description": "Kleine Unternehmen brauchen Unterstützung bei der Verwaltung ihrer Social Media-Präsenz. Du kannst Inhalte erstellen, Posts planen und die Interaktion mit Followern übernehmen. Dies kann sofort starten und ist oft gut bezahlt.",
-          "url": "https://www.upwork.com",
-          "effort_hours": 3.0,
-          "monthly_potential_eur": 250.0,
-          "reliability": 0.75,
-          "speed": 0.8,
-          "requirements": [
-            "Interesse an Social Media",
-            "Gute Schreibfähigkeiten"
-          ],
-          "steps": [
-            "Erstelle ein Profil auf Upwork",
-            "Biete deine Social Media-Dienste an",
-            "Akquiriere Kunden und bearbeite Aufträge"
-          ],
-          "tags": [
-            "Social Media",
-            "Freelance",
-            "Content Creation"
-          ],
-          "raw_score": 0.8586,
-          "found_at": "2026-03-25T16:09:02.980097+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "GIG-Agent",
-        "category": "gig",
-        "title": "Lokale Gigs bei TaskRabbit",
-        "description": "TaskRabbit ermöglicht es dir, lokale Dienstleistungen anzubieten, wie z.B. Umzüge, Möbelaufbau oder Reinigungsdienste. Du kannst sofort beginnen und deine Verfügbarkeit selbst festlegen. Es gibt viele Anfragen in städtischen Gebieten in Deutschland.",
-        "url": "https://www.taskrabbit.com",
-        "effort_hours": 4.0,
-        "monthly_potential_eur": 300.0,
-        "reliability": 0.9,
-        "speed": 0.9,
-        "requirements": [
-          "Führerschein (optional)",
-          "Körperliche Fitness (je nach Aufgabe)"
-        ],
-        "steps": [
-          "Registriere dich auf TaskRabbit",
-          "Biete deine Dienste an",
-          "Nimm Aufträge an und erhalte Vergütung"
-        ],
-        "tags": [
-          "Lokale Gigs",
-          "TaskRabbit",
-          "Flexibel"
-        ],
-        "raw_score": 0.9138,
-        "found_at": "2026-03-25T16:09:02.980097+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-25T17:09:47.826134+00:00",
-      "race_number": 29,
-      "duration_s": 30.02,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Kleinaufträge auf TaskRabbit",
-          "description": "Auf TaskRabbit kannst du lokale Dienstleistungen wie Möbelmontage, Umzüge oder Gartenarbeit anbieten. Diese Aufträge sind oft kurzfristig und ermöglichen dir, schnell Geld zu verdienen. Du benötigst keine speziellen Vorkenntnisse, außer Geschicklichkeit für die Aufgaben.",
-          "url": "https://www.taskrabbit.de",
-          "effort_hours": 3.0,
-          "monthly_potential_eur": 300.0,
-          "reliability": 0.9,
-          "speed": 0.9,
-          "requirements": [
-            "Handwerkliches Geschick",
-            "Verfügbarkeit für flexible Einsätze"
-          ],
-          "steps": [
-            "Registrierung auf TaskRabbit",
-            "Profil erstellen",
-            "Aufträge annehmen"
-          ],
-          "tags": [
-            "TaskRabbit",
-            "lokale Gigs",
-            "Handwerk"
-          ],
-          "raw_score": 0.9263,
-          "found_at": "2026-03-25T17:09:39.048438+00:00"
-        },
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "Bankwechsel für Girokonto-Bonus (Commerzbank)",
-          "description": "Die Commerzbank bietet derzeit einen Wechselbonus von 150 EUR für neue Girokonto-Kunden. Es ist eine einfache Möglichkeit, Geld zu verdienen, indem man sein Konto zu einer Bank mit attraktiven Prämien wechselt.",
-          "url": "https://www.commerzbank.de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.9,
-          "speed": 0.6,
-          "requirements": [
-            "Neukunde bei der Commerzbank",
-            "Girokonto eröffnen und Gehaltseingang nachweisen"
-          ],
-          "steps": [
-            "Eröffnen Sie ein Girokonto bei der Commerzbank",
-            "Wechseln Sie Ihr Gehalt zu diesem Konto",
-            "Erhalten Sie den Wechselbonus"
-          ],
-          "tags": [
-            "Bankwechsel",
-            "Girokonto",
-            "Bonus"
-          ],
-          "raw_score": 0.815,
-          "found_at": "2026-03-25T17:09:38.162082+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Social Media Management auf Upwork",
-          "description": "Social Media Management ist ein gefragter Service, den du ohne spezielle Ausbildung anbieten kannst. Du kannst Posts planen, Inhalte erstellen und Interaktionen verwalten. Auf Upwork kannst du deine Fähigkeiten präsentieren und Aufträge annehmen.",
-          "url": "https://www.upwork.com",
-          "effort_hours": 4.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 0.85,
-          "speed": 0.7,
-          "requirements": [
-            "Kenntnisse der gängigen Social Media Plattformen",
-            "Kreativität"
-          ],
-          "steps": [
-            "Profil auf Upwork erstellen",
-            "Angebot anpassen",
-            "Aufträge annehmen"
-          ],
-          "tags": [
-            "Social Media",
-            "Freelancing",
-            "Content Creation"
-          ],
-          "raw_score": 0.7761,
-          "found_at": "2026-03-25T17:09:39.048438+00:00"
-        },
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "Shoop Cashback-Portal",
-          "description": "Shoop bietet aktuell 5% Cashback auf ausgewählte Online-Einkäufe und hat regelmäßig Sonderaktionen mit bis zu 10% Cashback bei Partnern. Die Auszahlung erfolgt schnell und zuverlässig, was es zu einer beliebten Wahl für Cashback-Nutzer macht.",
-          "url": "https://www.shoop.de",
-          "effort_hours": 1.5,
-          "monthly_potential_eur": 75.0,
-          "reliability": 0.9,
-          "speed": 0.9,
-          "requirements": [
-            "Registrierung bei Shoop",
-            "Online-Einkäufe bei Partnern"
-          ],
-          "steps": [
-            "Registrieren Sie sich bei Shoop",
-            "Wählen Sie einen Partner aus",
-            "Kaufen Sie online und erhalten Sie Cashback"
-          ],
-          "tags": [
-            "Cashback",
-            "Online-Einkäufe",
-            "Sonderaktionen"
-          ],
-          "raw_score": 0.7738,
-          "found_at": "2026-03-25T17:09:38.162082+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Daten-Annotation auf Clickworker",
-          "description": "Clickworker bietet die Möglichkeit, Daten zu annotieren, was in der KI-Entwicklung immer gefragter wird. Aufgaben bestehen häufig aus dem Taggen von Bildern oder dem Überprüfen von Texten. Es erfordert keine speziellen Vorkenntnisse und die Bezahlung erfolgt pro Aufgabe.",
-          "url": "https://www.clickworker.com/de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 100.0,
+          "monthly_potential_eur": 120.0,
           "reliability": 0.9,
           "speed": 0.8,
           "requirements": [
-            "Internetverbindung",
-            "Grundkenntnisse im Umgang mit Computern"
-          ],
-          "steps": [
-            "Registrierung auf Clickworker",
-            "Auswahl von Aufträgen",
-            "Ausführung der Aufgaben"
-          ],
-          "tags": [
-            "Daten-Annotation",
-            "KI",
-            "Homeoffice"
-          ],
-          "raw_score": 0.7698,
-          "found_at": "2026-03-25T17:09:39.048438+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "GIG-Agent",
-        "category": "gig",
-        "title": "Kleinaufträge auf TaskRabbit",
-        "description": "Auf TaskRabbit kannst du lokale Dienstleistungen wie Möbelmontage, Umzüge oder Gartenarbeit anbieten. Diese Aufträge sind oft kurzfristig und ermöglichen dir, schnell Geld zu verdienen. Du benötigst keine speziellen Vorkenntnisse, außer Geschicklichkeit für die Aufgaben.",
-        "url": "https://www.taskrabbit.de",
-        "effort_hours": 3.0,
-        "monthly_potential_eur": 300.0,
-        "reliability": 0.9,
-        "speed": 0.9,
-        "requirements": [
-          "Handwerkliches Geschick",
-          "Verfügbarkeit für flexible Einsätze"
-        ],
-        "steps": [
-          "Registrierung auf TaskRabbit",
-          "Profil erstellen",
-          "Aufträge annehmen"
-        ],
-        "tags": [
-          "TaskRabbit",
-          "lokale Gigs",
-          "Handwerk"
-        ],
-        "raw_score": 0.9263,
-        "found_at": "2026-03-25T17:09:39.048438+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-25T18:10:30.078962+00:00",
-      "race_number": 30,
-      "duration_s": 36.81,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Lokale Gigs mit TaskRabbit",
-          "description": "Auf TaskRabbit können Sie lokale Dienstleistungen anbieten, wie Möbelmontage, Umzüge oder Reinigung. Diese Aufgaben sind sehr gefragt in Deutschland und erfordern keine speziellen Vorkenntnisse. Sie können sofort mit der Arbeit beginnen, wenn Sie in Ihrer Region registriert sind.",
-          "url": "https://www.taskrabbit.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 300.0,
-          "reliability": 0.9,
-          "speed": 0.8,
-          "requirements": [
-            "Fahrzeug für einige Aufgaben (optional)",
-            "Zuverlässigkeit"
-          ],
-          "steps": [
-            "Profil auf TaskRabbit erstellen",
-            "Verfügbare Dienstleistungen auswählen",
-            "Aufträge annehmen und erledigen"
-          ],
-          "tags": [
-            "Lokale Gigs",
-            "TaskRabbit",
-            "Flexibel"
-          ],
-          "raw_score": 0.9063,
-          "found_at": "2026-03-25T18:10:17.198542+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Willkommensbonus bei N26",
-          "description": "Die N26 Bank bietet einen Willkommensbonus für neue Kunden, die ein Konto eröffnen. Bei der Erfüllung bestimmter Bedingungen, wie z.B. einer Mindestanzahl an Transaktionen, kann man einen Bargeldbonus erhalten. Das Konto selbst ist kostenlos.",
-          "url": "https://n26.com",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 100.0,
-          "reliability": 1.0,
-          "speed": 0.9,
-          "requirements": [
-            "Mindestalter 18 Jahre",
-            "Wohnsitz in Deutschland/EU"
-          ],
-          "steps": [
-            "Konto online eröffnen",
-            "Bedingungen für den Bonus erfüllen",
-            "Bonus anfordern"
-          ],
-          "tags": [
-            "Bankkonto",
-            "Willkommensbonus",
-            "Finanzen"
-          ],
-          "raw_score": 0.8898,
-          "found_at": "2026-03-25T18:10:25.315183+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Virtuelle Assistenz auf Fiverr",
-          "description": "Als virtueller Assistent können Sie auf Fiverr Dienstleistungen wie E-Mail-Management, Terminplanung oder Recherche anbieten. Diese Aufgaben erfordern keine speziellen Vorkenntnisse und können sofort gestartet werden. Die Plattform ermöglicht es Ihnen, Ihre Dienstleistungen schnell zu bewerben und erste Aufträge zu erhalten.",
-          "url": "https://www.fiverr.com/categories/admin-support/virtual-assistant",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.8,
-          "speed": 0.7,
-          "requirements": [
-            "Gute Kommunikationsfähigkeiten",
-            "Zugang zu einem Computer"
-          ],
-          "steps": [
-            "Profil auf Fiverr erstellen",
-            "Dienstleistungen definieren und anbieten",
-            "Aufträge annehmen und bearbeiten"
-          ],
-          "tags": [
-            "Virtuelle Assistenz",
-            "Fiverr",
-            "Flexibel"
-          ],
-          "raw_score": 0.81,
-          "found_at": "2026-03-25T18:10:17.198542+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Social Media Management für lokale Unternehmen",
-          "description": "Viele lokale Unternehmen suchen nach Unterstützung im Bereich Social Media Management. Hier können Sie ohne spezielle Vorkenntnisse helfen, indem Sie Inhalte erstellen und die Online-Präsenz des Unternehmens verwalten. Dies kann über persönliche Netzwerke oder Plattformen wie Facebook und Instagram erfolgen.",
-          "url": "https://www.facebook.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 0.7,
-          "speed": 0.6,
-          "requirements": [
-            "Grundkenntnisse in Social Media",
-            "Kreativität"
-          ],
-          "steps": [
-            "Lokale Unternehmen kontaktieren",
-            "Angebot für Social Media Management erstellen",
-            "Inhalte erstellen und veröffentlichen"
-          ],
-          "tags": [
-            "Social Media",
-            "Freelance",
-            "Marketing"
-          ],
-          "raw_score": 0.7936,
-          "found_at": "2026-03-25T18:10:17.198542+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Datenannotation mit Clickworker",
-          "description": "Auf der Plattform Clickworker können Nutzer einfache Aufgaben wie Datenannotation, Texterstellung und Umfragen durchführen. Diese Aufgaben erfordern keine speziellen Kenntnisse und können flexibel von zu Hause aus erledigt werden. Die Auszahlung erfolgt schnell und die Aufgaben sind in der Regel sofort verfügbar.",
-          "url": "https://www.clickworker.com/de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 100.0,
-          "reliability": 0.9,
-          "speed": 0.8,
-          "requirements": [
-            "Zugang zu einem Computer",
+            "Zugriff auf einen Computer",
             "Internetverbindung"
           ],
           "steps": [
-            "Registrierung auf Clickworker",
-            "Profil ausfüllen",
-            "Erste Aufgaben auswählen und bearbeiten"
+            "Registrierung auf Scale AI",
+            "Schulung durchlaufen",
+            "Aufgaben annehmen"
           ],
           "tags": [
-            "Datenannotation",
-            "Crowdsourcing",
-            "Flexibel"
+            "Daten-Testen",
+            "KI"
           ],
-          "raw_score": 0.7698,
-          "found_at": "2026-03-25T18:10:17.198542+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "GIG-Agent",
-        "category": "gig",
-        "title": "Lokale Gigs mit TaskRabbit",
-        "description": "Auf TaskRabbit können Sie lokale Dienstleistungen anbieten, wie Möbelmontage, Umzüge oder Reinigung. Diese Aufgaben sind sehr gefragt in Deutschland und erfordern keine speziellen Vorkenntnisse. Sie können sofort mit der Arbeit beginnen, wenn Sie in Ihrer Region registriert sind.",
-        "url": "https://www.taskrabbit.com",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 300.0,
-        "reliability": 0.9,
-        "speed": 0.8,
-        "requirements": [
-          "Fahrzeug für einige Aufgaben (optional)",
-          "Zuverlässigkeit"
-        ],
-        "steps": [
-          "Profil auf TaskRabbit erstellen",
-          "Verfügbare Dienstleistungen auswählen",
-          "Aufträge annehmen und erledigen"
-        ],
-        "tags": [
-          "Lokale Gigs",
-          "TaskRabbit",
-          "Flexibel"
-        ],
-        "raw_score": 0.9063,
-        "found_at": "2026-03-25T18:10:17.198542+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-25T19:11:32.285086+00:00",
-      "race_number": 31,
-      "duration_s": 56.25,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "Bankwechsel-Bonus mit N26",
-          "description": "N26 bietet derzeit einen Bankwechsel-Bonus von bis zu 150 EUR für neue Kunden, die ihr Konto innerhalb eines bestimmten Zeitraums aktiv nutzen. Ein idealer Einstieg, um zusätzliches Geld zu verdienen.",
-          "url": "https://n26.com/de-de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 1.0,
-          "speed": 0.9,
-          "requirements": [
-            "Eröffnung eines neuen N26-Kontos",
-            "Monatliche Nutzung von 3 Transaktionen"
-          ],
-          "steps": [
-            "Neues Konto eröffnen",
-            "Mindestens 3 Transaktionen tätigen",
-            "Bonus erhalten"
-          ],
-          "tags": [
-            "Bankwechsel",
-            "Bonus"
-          ],
-          "raw_score": 0.9,
-          "found_at": "2026-03-25T19:10:53.326430+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Lokale Gigs auf TaskRabbit",
-          "description": "TaskRabbit ermöglicht es dir, lokale Aufgaben wie Umzüge, Möbelmontagen oder Reinigungsdienste anzubieten. Du kannst deine Dienstleistungen in deiner Region anbieten und direkt mit Kunden kommunizieren. Ideal für schnelle und flexible Einkommensmöglichkeiten.",
-          "url": "https://www.taskrabbit.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.85,
-          "speed": 0.8,
-          "requirements": [
-            "Fähigkeit, körperliche Arbeiten auszuführen",
-            "Zuverlässigkeit"
-          ],
-          "steps": [
-            "Registrierung auf TaskRabbit",
-            "Erstellung eines Profils mit angebotenen Dienstleistungen",
-            "Kundenanfragen annehmen und bearbeiten"
-          ],
-          "tags": [
-            "Lokale Gigs",
-            "TaskRabbit"
-          ],
-          "raw_score": 0.8425,
-          "found_at": "2026-03-25T19:10:56.779391+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Willkommensboni bei Online-Banken",
-          "description": "Viele Online-Banken bieten attraktive Willkommensboni für Neukunden an, die bis zu 100 Euro oder mehr betragen können. Diese Boni sind oft an die Eröffnung eines Kontos und eine gewisse Mindestnutzung gebunden.",
-          "url": "https://www.finanzen.net/banken/willkommensbonus",
-          "effort_hours": 1.5,
-          "monthly_potential_eur": 100.0,
-          "reliability": 0.9,
-          "speed": 0.8,
-          "requirements": [
-            "Neukunde bei einer Online-Bank",
-            "Erfüllung der Bonusbedingungen"
-          ],
-          "steps": [
-            "Wähle eine Bank mit Willkommensbonus",
-            "Eröffne ein Konto",
-            "Nutze das Konto gemäß den Bedingungen"
-          ],
-          "tags": [
-            "Banken",
-            "Boni"
-          ],
-          "raw_score": 0.8115,
-          "found_at": "2026-03-25T19:10:57.814398+00:00"
-        },
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "Shoop Cashback-Portal",
-          "description": "Shoop bietet Cashback von bis zu 10% auf zahlreiche Online-Einkäufe. Nutzer können zusätzlich an speziellen Aktionen teilnehmen, bei denen temporär erhöhtes Cashback verfügbar ist. Ideal für regelmäßige Online-Shopper.",
-          "url": "https://www.shoop.de",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 60.0,
-          "reliability": 0.9,
-          "speed": 0.8,
-          "requirements": [
-            "Registrierung bei Shoop",
-            "Nutzung von Partner-Shops"
-          ],
-          "steps": [
-            "Anmelden bei Shoop",
-            "Shop im Partner-Shop",
-            "Cashback einlösen"
-          ],
-          "tags": [
-            "Cashback",
-            "Online-Shopping"
-          ],
-          "raw_score": 0.7664,
-          "found_at": "2026-03-25T19:10:53.326430+00:00"
-        },
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "American Express Cashback-Karte",
-          "description": "Die American Express Karte bietet bei bestimmten Partnern bis zu 5% Cashback auf Einkäufe. Es gibt aktuell keine Jahresgebühr im ersten Jahr, was sie zu einer attraktiven Wahl macht.",
-          "url": "https://www.americanexpress.com/de/",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 50.0,
-          "reliability": 0.9,
-          "speed": 0.8,
-          "requirements": [
-            "Beantragung der Kreditkarte",
-            "Aktive Nutzung"
-          ],
-          "steps": [
-            "Kreditkarte beantragen",
-            "Einkäufe mit der Karte tätigen",
-            "Cashback sammeln"
-          ],
-          "tags": [
-            "Kreditkarte",
-            "Cashback"
-          ],
-          "raw_score": 0.7314,
-          "found_at": "2026-03-25T19:10:53.326430+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "CASHBACK-Agent",
-        "category": "cashback",
-        "title": "Bankwechsel-Bonus mit N26",
-        "description": "N26 bietet derzeit einen Bankwechsel-Bonus von bis zu 150 EUR für neue Kunden, die ihr Konto innerhalb eines bestimmten Zeitraums aktiv nutzen. Ein idealer Einstieg, um zusätzliches Geld zu verdienen.",
-        "url": "https://n26.com/de-de",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 150.0,
-        "reliability": 1.0,
-        "speed": 0.9,
-        "requirements": [
-          "Eröffnung eines neuen N26-Kontos",
-          "Monatliche Nutzung von 3 Transaktionen"
-        ],
-        "steps": [
-          "Neues Konto eröffnen",
-          "Mindestens 3 Transaktionen tätigen",
-          "Bonus erhalten"
-        ],
-        "tags": [
-          "Bankwechsel",
-          "Bonus"
-        ],
-        "raw_score": 0.9,
-        "found_at": "2026-03-25T19:10:53.326430+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-25T20:12:10.516319+00:00",
-      "race_number": 32,
-      "duration_s": 31.18,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Social Media Management für lokale Unternehmen",
-          "description": "Viele lokale Unternehmen suchen nach Unterstützung im Bereich Social Media Management. Du kannst ihnen helfen, ihre Inhalte zu planen und zu veröffentlichen. Dies erfordert keine speziellen Kenntnisse, nur ein gutes Gespür für Inhalte und Trends.",
-          "url": "https://www.taskrabbit.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 0.75,
-          "speed": 0.65,
-          "requirements": [
-            "Zugang zu sozialen Medien",
-            "Kreativität"
-          ],
-          "steps": [
-            "Identifiziere lokale Unternehmen",
-            "Biete deine Dienste an",
-            "Erstelle und verwalte Inhalte"
-          ],
-          "tags": [
-            "Social Media",
-            "Management",
-            "Lokale Unternehmen"
-          ],
-          "raw_score": 0.8161,
-          "found_at": "2026-03-25T20:11:55.712478+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Virtuelle Assistenz auf Fiverr",
-          "description": "Als virtuelle Assistenz kannst du administrative Aufgaben für Unternehmen oder Einzelpersonen übernehmen, wie Terminplanung, E-Mail-Verwaltung oder Recherche. Auf Fiverr kannst du deine Dienstleistungen anbieten und direkt mit Kunden in Kontakt treten.",
-          "url": "https://www.fiverr.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.8,
-          "speed": 0.7,
-          "requirements": [
-            "Gute Kommunikationsfähigkeiten",
-            "Grundkenntnisse in Bürosoftware"
-          ],
-          "steps": [
-            "Erstelle ein Profil auf Fiverr",
-            "Biete deine Dienstleistungen an",
-            "Erhalte Aufträge und arbeite mit Kunden"
-          ],
-          "tags": [
-            "Virtuelle Assistenz",
-            "Fiverr",
-            "Administrativ"
-          ],
-          "raw_score": 0.81,
-          "found_at": "2026-03-25T20:11:55.712478+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Willkommensbonus bei N26",
-          "description": "N26 bietet Neukunden einen Willkommensbonus, wenn sie ein Konto eröffnen und eine erste Einzahlung tätigen. Dies kann eine einfache Möglichkeit sein, zusätzliches Geld zu erhalten. Der Prozess ist unkompliziert und die Auszahlung erfolgt schnell.",
-          "url": "https://n26.com/de-de/",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 50.0,
-          "reliability": 1.0,
-          "speed": 1.0,
-          "requirements": [
-            "Deutsche Bankverbindung",
-            "Eröffnung eines Kontos"
-          ],
-          "steps": [
-            "Besuche die N26-Website",
-            "Eröffne ein kostenloses Konto",
-            "Erhalte den Willkommensbonus nach erster Einzahlung"
-          ],
-          "tags": [
-            "Bankkonto",
-            "Willkommensbonus"
-          ],
-          "raw_score": 0.7964,
-          "found_at": "2026-03-25T20:11:57.219719+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Cashback mit Shoop",
-          "description": "Shoop ist eine Cashback-Plattform, die es Nutzern ermöglicht, beim Online-Einkauf Geld zurückzuerhalten. Einige Produkte bieten Cashback-Angebote, die den Preis auf 0 Euro senken, wenn man die richtigen Angebote nutzt. Es lohnt sich, regelmäßig nach neuen Deals zu suchen.",
-          "url": "https://www.shoop.de/",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 60.0,
-          "reliability": 0.85,
-          "speed": 0.9,
-          "requirements": [
-            "Registrierung",
-            "Einkäufe über die Plattform tätigen"
-          ],
-          "steps": [
-            "Melde dich bei Shoop an",
-            "Durchsuche die Cashback-Angebote",
-            "Kaufe die Produkte über die Plattform"
-          ],
-          "tags": [
-            "Cashback",
-            "Sparen"
-          ],
-          "raw_score": 0.7739,
-          "found_at": "2026-03-25T20:11:57.219719+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Datenannotation mit Clickworker",
-          "description": "Clickworker ermöglicht es dir, Daten zu annotieren und zu kategorisieren, was ein wesentlicher Bestandteil von KI-Trainingsdaten ist. Du kannst in deiner Freizeit arbeiten und hast die Möglichkeit, sofortige Aufgaben zu übernehmen. Die Plattform ist benutzerfreundlich und erfordert keine speziellen Vorkenntnisse.",
-          "url": "https://www.clickworker.com/de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 100.0,
-          "reliability": 0.9,
-          "speed": 0.8,
-          "requirements": [
-            "Internetverbindung",
-            "Grundkenntnisse in Deutsch oder Englisch"
-          ],
-          "steps": [
-            "Registriere dich bei Clickworker",
-            "Wähle Aufgaben aus",
-            "Führe die Aufgaben durch und erhalte Vergütung"
-          ],
-          "tags": [
-            "Datenannotation",
-            "KI",
-            "Clickworker"
-          ],
-          "raw_score": 0.7698,
-          "found_at": "2026-03-25T20:11:55.712478+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "GIG-Agent",
-        "category": "gig",
-        "title": "Social Media Management für lokale Unternehmen",
-        "description": "Viele lokale Unternehmen suchen nach Unterstützung im Bereich Social Media Management. Du kannst ihnen helfen, ihre Inhalte zu planen und zu veröffentlichen. Dies erfordert keine speziellen Kenntnisse, nur ein gutes Gespür für Inhalte und Trends.",
-        "url": "https://www.taskrabbit.com",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 200.0,
-        "reliability": 0.75,
-        "speed": 0.65,
-        "requirements": [
-          "Zugang zu sozialen Medien",
-          "Kreativität"
-        ],
-        "steps": [
-          "Identifiziere lokale Unternehmen",
-          "Biete deine Dienste an",
-          "Erstelle und verwalte Inhalte"
-        ],
-        "tags": [
-          "Social Media",
-          "Management",
-          "Lokale Unternehmen"
-        ],
-        "raw_score": 0.8161,
-        "found_at": "2026-03-25T20:11:55.712478+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-25T21:12:42.269243+00:00",
-      "race_number": 33,
-      "duration_s": 26.43,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Virtuelle Assistenz auf Fiverr",
-          "description": "Als virtuelle Assistenz kannst du administrativen Support für Unternehmen bieten, wie z.B. E-Mail-Management oder Terminplanung. Diese Tätigkeit erfordert keine speziellen Vorkenntnisse und kann in deiner Freizeit durchgeführt werden. Viele kleine Unternehmen suchen aktiv nach Unterstützung.",
-          "url": "https://www.fiverr.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.9,
-          "speed": 0.7,
-          "requirements": [
-            "Gute Kommunikationsfähigkeiten",
-            "Zugang zum Internet"
-          ],
-          "steps": [
-            "Erstelle ein Profil auf Fiverr",
-            "Biete deine Dienste an",
-            "Akquiriere Kunden und bearbeite Aufträge"
-          ],
-          "tags": [
-            "Virtuelle Assistenz",
-            "Fiverr",
-            "Online-Arbeit"
-          ],
-          "raw_score": 0.835,
-          "found_at": "2026-03-25T21:12:31.502000+00:00"
-        },
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "Girokonto-Wechselbonus",
-          "description": "Einige Banken bieten Wechselprämien zwischen 100 und 200 EUR für neue Kunden. Banken wie die Deutsche Bank oder die comdirect haben oft solche Aktionen, die es ermöglichen, zusätzliche Prämien zu verdienen, indem man sein Gehaltskonto wechselt.",
-          "url": "https://www.deutsche-bank.de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.95,
-          "speed": 0.6,
-          "requirements": [
-            "Neukunde bei der Bank",
-            "Gehaltskonto wechseln"
-          ],
-          "steps": [
-            "Bank auswählen",
-            "Konto eröffnen",
-            "Gehaltskonto auf neues Konto umstellen"
-          ],
-          "tags": [
-            "Girokonto",
-            "Bonus"
-          ],
-          "raw_score": 0.8275,
-          "found_at": "2026-03-25T21:12:32.104454+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Social Media Management für lokale Unternehmen",
-          "description": "Viele kleine Unternehmen suchen nach Unterstützung bei der Verwaltung ihrer Social-Media-Profile. Du kannst mit einfachen Aufgaben wie dem Posten von Inhalten beginnen und dir ein Portfolio aufbauen, ohne dass spezielle Kenntnisse erforderlich sind. Dies kann eine lukrative Einkommensquelle sein.",
-          "url": "https://www.taskrabbit.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 0.8,
-          "speed": 0.6,
-          "requirements": [
-            "Interesse an Social Media",
-            "Kreativität"
-          ],
-          "steps": [
-            "Identifiziere lokale Unternehmen",
-            "Biete deine Dienste an",
-            "Verwalte deren Social Media und analysiere die Ergebnisse"
-          ],
-          "tags": [
-            "Social Media",
-            "Freelance",
-            "lokale Unternehmen"
-          ],
-          "raw_score": 0.8186,
-          "found_at": "2026-03-25T21:12:31.502000+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Cashback-Deals mit Shoop",
-          "description": "Shoop ermöglicht es Nutzern, Cashback für Einkäufe bei vielen Online-Shops zu erhalten. Einige Angebote bieten Cashback, das den Preis auf 0 € senkt, besonders bei Aktionsprodukten. Dies ist eine einfache Möglichkeit, Geld zurückzubekommen.",
-          "url": "https://www.shoop.de",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 70.0,
-          "reliability": 0.95,
-          "speed": 0.6,
-          "requirements": [
-            "Registrierung bei Shoop",
-            "Einkäufe über die Plattform tätigen"
-          ],
-          "steps": [
-            "Konto erstellen",
-            "Shop auswählen",
-            "Einkauf tätigen und Cashback erhalten"
-          ],
-          "tags": [
-            "Cashback",
-            "Einkaufen",
-            "Shoop"
-          ],
-          "raw_score": 0.7725,
-          "found_at": "2026-03-25T21:12:37.632162+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Willkommensbonus bei N26",
-          "description": "N26 bietet einen attraktiven Willkommensbonus für neue Kontoinhaber, der bei der Eröffnung eines Kontos in Form von Bargeld oder Gutscheinen erhältlich ist. Dies ist eine einfache Möglichkeit, ohne großen Aufwand Geld zu verdienen.",
-          "url": "https://n26.com",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 50.0,
-          "reliability": 0.9,
-          "speed": 1.0,
-          "requirements": [
-            "Wohnsitz in Deutschland",
-            "Alter über 18"
-          ],
-          "steps": [
-            "Registrierung auf der N26-Website",
-            "Identitätsprüfung",
-            "Erhalt des Willkommensbonus"
-          ],
-          "tags": [
-            "Bankkonto",
-            "Willkommensbonus",
-            "N26"
-          ],
-          "raw_score": 0.7714,
-          "found_at": "2026-03-25T21:12:37.632162+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "GIG-Agent",
-        "category": "gig",
-        "title": "Virtuelle Assistenz auf Fiverr",
-        "description": "Als virtuelle Assistenz kannst du administrativen Support für Unternehmen bieten, wie z.B. E-Mail-Management oder Terminplanung. Diese Tätigkeit erfordert keine speziellen Vorkenntnisse und kann in deiner Freizeit durchgeführt werden. Viele kleine Unternehmen suchen aktiv nach Unterstützung.",
-        "url": "https://www.fiverr.com",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 150.0,
-        "reliability": 0.9,
-        "speed": 0.7,
-        "requirements": [
-          "Gute Kommunikationsfähigkeiten",
-          "Zugang zum Internet"
-        ],
-        "steps": [
-          "Erstelle ein Profil auf Fiverr",
-          "Biete deine Dienste an",
-          "Akquiriere Kunden und bearbeite Aufträge"
-        ],
-        "tags": [
-          "Virtuelle Assistenz",
-          "Fiverr",
-          "Online-Arbeit"
-        ],
-        "raw_score": 0.835,
-        "found_at": "2026-03-25T21:12:31.502000+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-26T16:52:57.860899+00:00",
-      "race_number": 34,
-      "duration_s": 26.58,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Bankkonto Willkommensbonus",
-          "description": "Viele Banken in Deutschland bieten attraktive Willkommensboni für neue Kunden, oft in Form von Geldbeträgen oder Gutscheinen. Diese können bis zu 200 Euro betragen, wenn man ein neues Konto eröffnet und bestimmte Bedingungen erfüllt. Es ist wichtig, die Konditionen der jeweiligen Bank zu prüfen.",
-          "url": "https://www.banken.de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 1.0,
-          "speed": 0.9,
-          "requirements": [
-            "Alter über 18",
-            "Identitätsnachweis"
-          ],
-          "steps": [
-            "Konto online eröffnen",
-            "Bedingungen erfüllen",
-            "Bonus anfordern"
-          ],
-          "tags": [
-            "Bankkonto",
-            "Willkommensbonus"
-          ],
-          "raw_score": 0.9286,
-          "found_at": "2026-03-26T16:52:52.888355+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Lokale Gigs auf TaskRabbit",
-          "description": "Auf TaskRabbit kannst du lokale Aufträge wie Möbelmontage, Reinigung oder Umzugshilfe annehmen. Diese Plattform ist in vielen Städten in Deutschland aktiv und ermöglicht es dir, schnell Geld zu verdienen, indem du deine Dienste anbietest.",
-          "url": "https://www.taskrabbit.de/",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 0.9,
-          "speed": 0.9,
-          "requirements": [
-            "Körperliche Belastbarkeit",
-            "Zuverlässigkeit"
-          ],
-          "steps": [
-            "Registrierung auf TaskRabbit",
-            "Profil erstellen",
-            "Aufträge annehmen"
-          ],
-          "tags": [
-            "Lokale Gigs",
-            "TaskRabbit",
-            "Flexibel"
-          ],
-          "raw_score": 0.9036,
-          "found_at": "2026-03-26T16:52:51.624580+00:00"
+          "raw_score": 0.805,
+          "found_at": "2026-03-28T18:52:18.527216+00:00"
         },
         {
           "agent_name": "GIG-Agent",
           "category": "gig",
           "title": "Social Media Management auf Upwork",
-          "description": "Als Social Media Manager kannst du kleinen Unternehmen helfen, ihre Präsenz in sozialen Netzwerken zu verwalten. Du benötigst keine speziellen Zertifikate, sondern solltest ein Gespür für Trends und Inhalte haben. Upwork bietet eine Plattform, um schnell Aufträge zu finden.",
-          "url": "https://www.upwork.com/",
-          "effort_hours": 2.0,
+          "description": "Auf Upwork kannst du fÃ¼r kleine Unternehmen Social Media Management anbieten. Du kannst Inhalte erstellen und planen, um die Online-PrÃ¤senz zu verbessern. Vorkenntnisse sind nicht unbedingt erforderlich, und du kannst schnell mit kleinen AuftrÃ¤gen beginnen.",
+          "url": "https://www.upwork.com",
+          "effort_hours": 3.0,
           "monthly_potential_eur": 200.0,
           "reliability": 0.85,
-          "speed": 0.7,
+          "speed": 0.6,
           "requirements": [
-            "Kenntnisse in Social Media",
-            "Gute Schreibfähigkeiten"
+            "Kenntnis der sozialen Medien",
+            "Internetverbindung"
           ],
           "steps": [
-            "Registrierung auf Upwork",
             "Profil erstellen",
-            "Aufträge suchen"
+            "Dienstleistungen anbieten",
+            "AuftrÃ¤ge annehmen"
           ],
           "tags": [
             "Social Media",
-            "Upwork",
-            "Flexibel"
+            "Upwork"
           ],
-          "raw_score": 0.8511,
-          "found_at": "2026-03-26T16:52:51.624580+00:00"
+          "raw_score": 0.7977,
+          "found_at": "2026-03-28T18:52:18.527212+00:00"
         },
         {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Testerheld Produkttests",
-          "description": "Testerheld ermöglicht es Nutzern, Produkte zu testen und dafür Geld oder Geschenke zu erhalten. Die Vergütung hängt vom jeweiligen Produkttest ab, kann aber bis zu 50 Euro pro Test betragen. Zudem gibt es regelmäßige Angebote, sodass aktive Tester monatlich mehrere Tests durchführen können.",
-          "url": "https://www.testerheld.de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.9,
-          "speed": 0.6,
-          "requirements": [
-            "Alter über 18",
-            "E-Mail-Adresse"
-          ],
-          "steps": [
-            "Registrieren",
-            "Produkte auswählen",
-            "Produkte testen und Feedback geben"
-          ],
-          "tags": [
-            "Produkttests",
-            "Geld verdienen"
-          ],
-          "raw_score": 0.815,
-          "found_at": "2026-03-26T16:52:52.888355+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Virtuelle Assistenz auf Fiverr",
-          "description": "Als virtuelle Assistenz kannst du administrative Aufgaben für Unternehmen oder Einzelpersonen übernehmen, wie z.B. Terminplanung, E-Mail-Management oder Datenpflege. Fiverr ermöglicht es dir, deine Dienste anzubieten und sofort Kunden zu finden, ohne Vorkenntnisse.",
-          "url": "https://www.fiverr.com/",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.8,
-          "speed": 0.7,
-          "requirements": [
-            "Gute Kommunikationsfähigkeiten",
-            "Zuverlässigkeit"
-          ],
-          "steps": [
-            "Registrierung auf Fiverr",
-            "Profil erstellen",
-            "Dienste anbieten"
-          ],
-          "tags": [
-            "Virtuelle Assistenz",
-            "Fiverr",
-            "Flexibel"
-          ],
-          "raw_score": 0.81,
-          "found_at": "2026-03-26T16:52:51.624580+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "GIFT-Agent",
-        "category": "gift",
-        "title": "Bankkonto Willkommensbonus",
-        "description": "Viele Banken in Deutschland bieten attraktive Willkommensboni für neue Kunden, oft in Form von Geldbeträgen oder Gutscheinen. Diese können bis zu 200 Euro betragen, wenn man ein neues Konto eröffnet und bestimmte Bedingungen erfüllt. Es ist wichtig, die Konditionen der jeweiligen Bank zu prüfen.",
-        "url": "https://www.banken.de",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 200.0,
-        "reliability": 1.0,
-        "speed": 0.9,
-        "requirements": [
-          "Alter über 18",
-          "Identitätsnachweis"
-        ],
-        "steps": [
-          "Konto online eröffnen",
-          "Bedingungen erfüllen",
-          "Bonus anfordern"
-        ],
-        "tags": [
-          "Bankkonto",
-          "Willkommensbonus"
-        ],
-        "raw_score": 0.9286,
-        "found_at": "2026-03-26T16:52:52.888355+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-27T08:15:51.813083+00:00",
-      "race_number": 35,
-      "duration_s": 27.86,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Lokale Gigs auf TaskRabbit",
-          "description": "TaskRabbit ermöglicht es dir, lokale Dienstleistungen anzubieten, von Möbelmontage bis zu Umzügen. Du kannst dich einfach registrieren und deine Fähigkeiten einstellen. Der Verdienst hängt von der Art der Aufgabe und der Zeit ab, die du investierst.",
-          "url": "https://www.taskrabbit.com",
-          "effort_hours": 3.0,
-          "monthly_potential_eur": 250.0,
-          "reliability": 0.9,
-          "speed": 0.9,
-          "requirements": [
-            "Zuverlässigkeit",
-            "Handwerkliches Geschick (je nach Gig)"
-          ],
-          "steps": [
-            "Registriere dich auf TaskRabbit",
-            "Wähle deine angebotenen Dienstleistungen aus",
-            "Akzeptiere Aufträge und erledige sie"
-          ],
-          "tags": [
-            "Lokale Gigs",
-            "TaskRabbit"
-          ],
-          "raw_score": 0.9161,
-          "found_at": "2026-03-27T08:15:43.480238+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Willkommensbonus bei N26",
-          "description": "N26 bietet einen attraktiven Willkommensbonus für neue Kunden, wenn sie ein kostenloses Konto eröffnen. Der Bonus kann bis zu 100 Euro betragen, abhängig von den ersten Transaktionen. Die Kontoeröffnung ist einfach und die Auszahlung erfolgt schnell nach Erfüllung der Bedingungen.",
-          "url": "https://n26.com",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 100.0,
-          "reliability": 0.95,
-          "speed": 0.9,
-          "requirements": [
-            "Mindestalter 18 Jahre",
-            "Wohnsitz in der EU"
-          ],
-          "steps": [
-            "Konto eröffnen",
-            "Erste Transaktionen durchführen",
-            "Bonus anfordern"
-          ],
-          "tags": [
-            "Bankkonto",
-            "Willkommensbonus",
-            "N26"
-          ],
-          "raw_score": 0.8773,
-          "found_at": "2026-03-27T08:15:47.091539+00:00"
-        },
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "Girokonto-Wechselbonus - N26",
-          "description": "N26 bietet aktuell einen Wechselbonus von 150 EUR an, wenn man sein Gehalt auf das Konto überweist. Das Konto ist kostenlos und ohne monatliche Gebühren. Der Bonus wird in der Regel innerhalb von 4-6 Wochen nach der Gehaltsüberweisung gutgeschrieben.",
-          "url": "https://n26.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 1.0,
-          "speed": 0.5,
-          "requirements": [
-            "Eröffnung eines N26-Kontos",
-            "Monatliche Gehaltsüberweisung"
-          ],
-          "steps": [
-            "Konto bei N26 eröffnen",
-            "Gehalt auf das neue Konto überweisen",
-            "Bonus erhalten"
-          ],
-          "tags": [
-            "Girokonto",
-            "Wechselbonus"
-          ],
-          "raw_score": 0.82,
-          "found_at": "2026-03-27T08:15:43.065439+00:00"
-        },
-        {
-          "agent_name": "GIFT-Agent",
-          "category": "gift",
-          "title": "Gratis Proben von HelloFresh",
-          "description": "HelloFresh bietet oft kostenlose Kochboxen für Neukunden an. Diese Boxen enthalten alle Zutaten für ausgewählte Rezepte und können eine Ersparnis von bis zu 70 Euro mit sich bringen. Die Anmeldung ist einfach, und die Box kann jederzeit gekündigt werden.",
-          "url": "https://www.hellofresh.de",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 70.0,
-          "reliability": 0.9,
+          "agent_name": "PASSIVE-Agent",
+          "category": "passive",
+          "title": "Affiliate Marketing",
+          "description": "Affiliate Marketing ermÃ¶glicht es Ihnen, durch das Bewerben von Produkten oder Dienstleistungen Geld zu verdienen. Sie erhalten eine Provision fÃ¼r jeden Verkauf, der Ã¼ber Ihren speziellen Link generiert wird. Dies kann Ã¼ber eigene Webseiten oder Social Media-KanÃ¤le geschehen.",
+          "url": "https://www.amazon.de/associates",
+          "effort_hours": 5.0,
+          "monthly_potential_eur": 200.0,
+          "reliability": 0.85,
           "speed": 0.8,
           "requirements": [
-            "Neukunde",
-            "Zugang zu Zahlungsmethoden"
+            "Website oder Social Media-Kanal",
+            "Affiliate-Programme beitreten"
           ],
           "steps": [
-            "Registrierung für die erste Box",
-            "Auswahl der Rezepte",
-            "Kündigung nach Erhalt der Box"
+            "Nische auswÃ¤hlen",
+            "Produkte recherchieren",
+            "Inhalte erstellen und Links einfÃ¼gen"
           ],
           "tags": [
-            "Essenslieferung",
-            "Gratis-Proben",
-            "HelloFresh"
+            "Marketing",
+            "Affiliate",
+            "E-Commerce"
           ],
-          "raw_score": 0.8,
-          "found_at": "2026-03-27T08:15:47.091539+00:00"
-        },
-        {
-          "agent_name": "CASHBACK-Agent",
-          "category": "cashback",
-          "title": "Shoop Cashback-Portal",
-          "description": "Shoop bietet bis zu 10% Cashback auf zahlreiche Online-Einkäufe an, darunter Elektronik, Mode und Reisen. Aktuell gibt es Sonderaktionen mit erhöhtem Cashback von bis zu 20% bei ausgewählten Partnern. Die Auszahlung erfolgt in der Regel innerhalb von 2-4 Wochen nach dem Einkauf.",
-          "url": "https://www.shoop.de",
-          "effort_hours": 1.0,
-          "monthly_potential_eur": 75.0,
-          "reliability": 0.9,
-          "speed": 0.7,
-          "requirements": [
-            "Registrierung auf der Plattform",
-            "Einkäufe über den Shoop-Link tätigen"
-          ],
-          "steps": [
-            "Auf Shoop anmelden",
-            "Partner-Shop auswählen",
-            "Einkauf tätigen und Cashback erhalten"
-          ],
-          "tags": [
-            "Cashback",
-            "Online-Shopping"
-          ],
-          "raw_score": 0.7963,
-          "found_at": "2026-03-27T08:15:43.065439+00:00"
+          "raw_score": 0.7711,
+          "found_at": "2026-03-28T18:52:14.325613+00:00"
         }
       ],
       "winner": {
         "agent_name": "GIG-Agent",
         "category": "gig",
         "title": "Lokale Gigs auf TaskRabbit",
-        "description": "TaskRabbit ermöglicht es dir, lokale Dienstleistungen anzubieten, von Möbelmontage bis zu Umzügen. Du kannst dich einfach registrieren und deine Fähigkeiten einstellen. Der Verdienst hängt von der Art der Aufgabe und der Zeit ab, die du investierst.",
+        "description": "Auf TaskRabbit kannst du lokale Dienstleistungen anbieten, wie z.B. UmzÃ¼ge, MÃ¶belmontage oder einfache Reparaturen. Du kannst sofort loslegen, indem du dein Profil erstellst und deine verfÃ¼gbaren Dienstleistungen anbietest. Die Bezahlung erfolgt schnell nach Abschluss der Aufgaben.",
         "url": "https://www.taskrabbit.com",
-        "effort_hours": 3.0,
+        "effort_hours": 4.0,
         "monthly_potential_eur": 250.0,
-        "reliability": 0.9,
+        "reliability": 0.85,
         "speed": 0.9,
         "requirements": [
-          "Zuverlässigkeit",
+          "Zugriff auf ein Fahrzeug (optional)",
           "Handwerkliches Geschick (je nach Gig)"
         ],
         "steps": [
-          "Registriere dich auf TaskRabbit",
-          "Wähle deine angebotenen Dienstleistungen aus",
-          "Akzeptiere Aufträge und erledige sie"
+          "Registrierung auf TaskRabbit",
+          "Profil erstellen",
+          "AuftrÃ¤ge annehmen"
         ],
         "tags": [
           "Lokale Gigs",
           "TaskRabbit"
         ],
-        "raw_score": 0.9161,
-        "found_at": "2026-03-27T08:15:43.480238+00:00"
-      }
-    },
-    {
-      "timestamp": "2026-03-27T09:16:25.820280+00:00",
-      "race_number": 36,
-      "duration_s": 26.61,
-      "total_ideas": 34,
-      "top5": [
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Lokale Gigs auf TaskRabbit",
-          "description": "TaskRabbit bietet dir die Möglichkeit, lokale Dienstleistungen anzubieten, wie beispielsweise Möbelmontage, Reinigung oder Umzüge. Du kannst deine Fähigkeiten und Verfügbarkeiten angeben und direkt mit Kunden in deiner Nähe kommunizieren. Das ist eine großartige Möglichkeit, schnell Geld zu verdienen, ohne spezielle Vorkenntnisse.",
-          "url": "https://www.taskrabbit.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 200.0,
-          "reliability": 0.9,
-          "speed": 0.8,
-          "requirements": [
-            "Zugänglichkeit für lokale Einsätze",
-            "Freundliches Auftreten"
-          ],
-          "steps": [
-            "Registriere dich auf TaskRabbit",
-            "Erstelle dein Profil und biete Dienstleistungen an",
-            "Nehme Aufträge an und führe sie aus"
-          ],
-          "tags": [
-            "lokale Gigs",
-            "TaskRabbit",
-            "flexibel"
-          ],
-          "raw_score": 0.8836,
-          "found_at": "2026-03-27T09:16:14.850370+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Virtuelle Assistenz auf Fiverr",
-          "description": "Als virtuelle Assistenz kannst du Dienstleistungen wie Terminplanung, E-Mail-Verwaltung oder Kundensupport anbieten. Fiverr ist eine Plattform, die es dir ermöglicht, deine Dienste zu bewerben und Kunden zu gewinnen, ohne spezielle Vorkenntnisse. Du kannst sofort anfangen, deine ersten Aufträge zu akquirieren.",
-          "url": "https://www.fiverr.com/categories/admin/virtual-assistant",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 150.0,
-          "reliability": 0.85,
-          "speed": 0.7,
-          "requirements": [
-            "Gute Kommunikationsfähigkeiten",
-            "Zugang zu einem Computer"
-          ],
-          "steps": [
-            "Erstelle ein Profil auf Fiverr",
-            "Biete deine Dienstleistungen an",
-            "Akquiriere Aufträge und erhalte Zahlungen"
-          ],
-          "tags": [
-            "Virtuelle Assistenz",
-            "Fiverr",
-            "Kundenservice"
-          ],
-          "raw_score": 0.8225,
-          "found_at": "2026-03-27T09:16:14.850370+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Datenannotation auf Clickworker",
-          "description": "Clickworker ermöglicht es dir, einfache Aufgaben zur Datenannotation durchzuführen, wie das Kategorisieren von Bildern oder das Schreiben von kurzen Texten. Diese Aufgaben erfordern keine speziellen Kenntnisse und können flexibel von zu Hause aus erledigt werden. Du kannst sofort mit dem Verdienen beginnen, indem du dich auf der Plattform registrierst und die verfügbaren Aufgaben auswählst.",
-          "url": "https://www.clickworker.com/de",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 100.0,
-          "reliability": 0.9,
-          "speed": 0.8,
-          "requirements": [
-            "Internetverbindung",
-            "Grundkenntnisse im Umgang mit Computern"
-          ],
-          "steps": [
-            "Registriere dich auf Clickworker",
-            "Wähle verfügbare Aufgaben aus",
-            "Führe die Aufgaben aus und erhalte Vergütung"
-          ],
-          "tags": [
-            "Datenannotation",
-            "Clickworker",
-            "flexibel"
-          ],
-          "raw_score": 0.7698,
-          "found_at": "2026-03-27T09:16:14.850370+00:00"
-        },
-        {
-          "agent_name": "SURVEY-Agent",
-          "category": "survey",
-          "title": "Testbirds",
-          "description": "Testbirds bietet die Möglichkeit, an User-Testing-Projekten teilzunehmen und dabei Geld zu verdienen. Tester können ihre Meinungen zu Websites und Apps abgeben und dafür eine Vergütung erhalten. Es ist eine großartige Möglichkeit, direktes Feedback zu geben und dabei Geld zu verdienen.",
-          "url": "https://www.testbirds.com",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 100.0,
-          "reliability": 0.85,
-          "speed": 0.8,
-          "requirements": [
-            "Mindestens 18 Jahre alt",
-            "Zugang zu Internet und Gerät"
-          ],
-          "steps": [
-            "Registrierung auf der Website",
-            "Projekte auswählen",
-            "Feedback geben und Vergütung erhalten"
-          ],
-          "tags": [
-            "User Testing",
-            "Feedback"
-          ],
-          "raw_score": 0.7573,
-          "found_at": "2026-03-27T09:16:13.483200+00:00"
-        },
-        {
-          "agent_name": "GIG-Agent",
-          "category": "gig",
-          "title": "Social Media Management",
-          "description": "Social Media Management für kleine Unternehmen oder Einzelpersonen ist eine gefragte Dienstleistung. Du kannst deine Dienste auf Plattformen wie Fiverr oder Upwork anbieten, ohne spezielle Vorkenntnisse. Die Erstellung und Planung von Inhalten kann einfach sein und dir ein gutes Einkommen bieten.",
-          "url": "https://www.fiverr.com/categories/social-media",
-          "effort_hours": 2.0,
-          "monthly_potential_eur": 120.0,
-          "reliability": 0.8,
-          "speed": 0.6,
-          "requirements": [
-            "Kenntnisse in Social Media",
-            "Zugang zu Social Media Plattformen"
-          ],
-          "steps": [
-            "Erstelle ein Profil auf Fiverr oder Upwork",
-            "Biete deine Social Media Dienste an",
-            "Akquiriere Kunden und erstelle Inhalte"
-          ],
-          "tags": [
-            "Social Media",
-            "Content Creation",
-            "Fiverr"
-          ],
-          "raw_score": 0.74,
-          "found_at": "2026-03-27T09:16:14.850370+00:00"
-        }
-      ],
-      "winner": {
-        "agent_name": "GIG-Agent",
-        "category": "gig",
-        "title": "Lokale Gigs auf TaskRabbit",
-        "description": "TaskRabbit bietet dir die Möglichkeit, lokale Dienstleistungen anzubieten, wie beispielsweise Möbelmontage, Reinigung oder Umzüge. Du kannst deine Fähigkeiten und Verfügbarkeiten angeben und direkt mit Kunden in deiner Nähe kommunizieren. Das ist eine großartige Möglichkeit, schnell Geld zu verdienen, ohne spezielle Vorkenntnisse.",
-        "url": "https://www.taskrabbit.com",
-        "effort_hours": 2.0,
-        "monthly_potential_eur": 200.0,
-        "reliability": 0.9,
-        "speed": 0.8,
-        "requirements": [
-          "Zugänglichkeit für lokale Einsätze",
-          "Freundliches Auftreten"
-        ],
-        "steps": [
-          "Registriere dich auf TaskRabbit",
-          "Erstelle dein Profil und biete Dienstleistungen an",
-          "Nehme Aufträge an und führe sie aus"
-        ],
-        "tags": [
-          "lokale Gigs",
-          "TaskRabbit",
-          "flexibel"
-        ],
-        "raw_score": 0.8836,
-        "found_at": "2026-03-27T09:16:14.850370+00:00"
+        "raw_score": 0.8598,
+        "found_at": "2026-03-28T18:52:18.527220+00:00"
       }
     }
   ]

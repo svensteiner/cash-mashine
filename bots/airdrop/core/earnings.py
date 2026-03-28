@@ -3,7 +3,8 @@
 """EarningsTracker fuer Airdrop Bot — verfolgt Quest-Abschluesse und Rewards."""
 from __future__ import annotations
 import json, logging
-from datetime import datetime, UTC, date
+from datetime import datetime, timezone, date
+UTC = timezone.utc
 from pathlib import Path
 
 log = logging.getLogger("Airdrop.Earnings")

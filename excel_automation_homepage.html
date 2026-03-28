@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excel Automatisierung mit Python | AI Studio xyz</title>
+  <style>
+    :root {
+      --dark: #0f1117;
+      --dark2: #1a1d2e;
+      --accent: #4f6ef7;
+      --accent2: #22d3a0;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --card: #1e2235;
+      --border: #2a2f45;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--dark);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; width: 100%;
+      background: rgba(15,17,23,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+    }
+    .nav-inner {
+      max-width: 1100px; margin: 0 auto;
+      padding: 0 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .logo { font-size: 1.1rem; font-weight: 700; color: #fff; letter-spacing: -0.02em; }
+    .logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; transition: color .2s; }
+    .nav-links a:hover { color: #fff; }
+    .nav-cta {
+      background: var(--accent); color: #fff;
+      padding: 0.5rem 1.2rem; border-radius: 8px;
+      text-decoration: none; font-size: 0.9rem; font-weight: 600;
+      transition: background .2s;
+    }
+    .nav-cta:hover { background: #3d5be0; }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex; align-items: center;
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(79,110,247,0.15) 0%, transparent 60%);
+      padding: 6rem 2rem 4rem;
+    }
+    .hero-inner { max-width: 1100px; margin: 0 auto; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(79,110,247,0.12); border: 1px solid rgba(79,110,247,0.3);
+      color: #a5b4fc; padding: 0.35rem 1rem; border-radius: 999px;
+      font-size: 0.82rem; font-weight: 600; letter-spacing: 0.04em;
+      text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      font-weight: 800; line-height: 1.12;
+      letter-spacing: -0.03em; margin-bottom: 1.5rem;
+    }
+    .hero h1 .highlight {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      font-size: 1.2rem; color: var(--muted);
+      max-width: 600px; margin-bottom: 2.5rem; line-height: 1.7;
+    }
+    .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--accent); color: #fff;
+      padding: 0.85rem 2rem; border-radius: 10px;
+      text-decoration: none; font-weight: 700; font-size: 1rem;
+      transition: transform .2s, background .2s; display: inline-block;
+    }
+    .btn-primary:hover { transform: translateY(-2px); background: #3d5be0; }
+    .btn-secondary {
+      background: transparent; color: var(--text);
+      padding: 0.85rem 2rem; border-radius: 10px;
+      text-decoration: none; font-weight: 600; font-size: 1rem;
+      border: 1px solid var(--border); transition: border-color .2s;
+    }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+    .hero-visual {
+      margin-top: 4rem;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 1.5rem; overflow: hidden;
+      max-width: 700px;
+    }
+    .terminal-bar {
+      display: flex; gap: 6px; margin-bottom: 1rem;
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot-r { background: #ff5f57; }
+    .dot-y { background: #febc2e; }
+    .dot-g { background: #28c840; }
+    .code-block { font-family: 'Consolas', 'Monaco', monospace; font-size: 0.85rem; line-height: 1.8; }
+    .c-comment { color: #6b7280; }
+    .c-keyword { color: #c084fc; }
+    .c-func { color: #60a5fa; }
+    .c-string { color: #34d399; }
+    .c-var { color: #e2e8f0; }
+    .c-num { color: #fb923c; }
+
+    /* PAIN POINTS */
+    .section { padding: 5rem 2rem; }
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+    .section-label {
+      font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem;
+    }
+    .section h2 {
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      font-weight: 800; letter-spacing: -0.02em; margin-bottom: 1rem;
+    }
+    .section p.lead { font-size: 1.1rem; color: var(--muted); max-width: 600px; }
+
+    .pain-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem; margin-top: 3rem;
+    }
+    .pain-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 1.75rem;
+      transition: border-color .2s;
+    }
+    .pain-card:hover { border-color: rgba(79,110,247,0.5); }
+    .pain-icon { font-size: 2rem; margin-bottom: 1rem; }
+    .pain-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .pain-card p { font-size: 0.9rem; color: var(--muted); }
+
+    /* EXAMPLES / BEFORE-AFTER */
+    .examples { background: var(--dark2); }
+    .examples-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 2rem; margin-top: 3rem;
+    }
+    @media (max-width: 700px) { .examples-grid { grid-template-columns: 1fr; } }
+    .example-before, .example-after {
+      border-radius: 14px; padding: 1.75rem;
+    }
+    .example-before {
+      background: rgba(239,68,68,0.07); border: 1px solid rgba(239,68,68,0.25);
+    }
+    .example-after {
+      background: rgba(34,211,160,0.07); border: 1px solid rgba(34,211,160,0.25);
+    }
+    .ex-label {
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; margin-bottom: 1rem;
+    }
+    .ex-before-label { color: #f87171; }
+    .ex-after-label { color: var(--accent2); }
+    .ex-item { display: flex; gap: 0.75rem; margin-bottom: 0.85rem; align-items: flex-start; }
+    .ex-bullet { font-size: 1rem; flex-shrink: 0; margin-top: 0.1rem; }
+    .ex-text { font-size: 0.92rem; color: var(--muted); }
+    .ex-text strong { color: var(--text); }
+
+    /* SERVICES */
+    .services-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem; margin-top: 3rem;
+    }
+    .service-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 2rem; position: relative;
+      transition: transform .2s, border-color .2s;
+    }
+    .service-card:hover { transform: translateY(-4px); border-color: var(--accent); }
+    .service-card.featured {
+      border-color: var(--accent);
+      background: linear-gradient(135deg, rgba(79,110,247,0.08), var(--card));
+    }
+    .featured-badge {
+      position: absolute; top: -12px; right: 1.5rem;
+      background: var(--accent); color: #fff;
+      padding: 0.2rem 0.8rem; border-radius: 999px;
+      font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+    }
+    .service-price {
+      font-size: 2.2rem; font-weight: 800; color: #fff; margin: 0.75rem 0 0.25rem;
+    }
+    .service-price span { font-size: 1rem; font-weight: 400; color: var(--muted); }
+    .service-card h3 { font-size: 1.15rem; font-weight: 700; color: var(--accent); }
+    .service-card .desc { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .service-features { list-style: none; }
+    .service-features li {
+      font-size: 0.9rem; padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border); color: var(--muted);
+    }
+    .service-features li:last-child { border: none; }
+    .service-features li::before { content: "✓ "; color: var(--accent2); font-weight: 700; }
+
+    /* PROCESS */
+    .process-steps {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem; margin-top: 3rem;
+    }
+    .step { text-align: center; }
+    .step-num {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: rgba(79,110,247,0.15); border: 2px solid var(--accent);
+      color: var(--accent); font-size: 1.2rem; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1rem;
+    }
+    .step h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .step p { font-size: 0.88rem; color: var(--muted); }
+
+    /* TECH STACK */
+    .tech-grid {
+      display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem;
+    }
+    .tech-tag {
+      background: var(--card); border: 1px solid var(--border);
+      padding: 0.4rem 1rem; border-radius: 8px;
+      font-size: 0.85rem; font-weight: 600; color: var(--muted);
+    }
+
+    /* CTA SECTION */
+    .cta-section {
+      background: linear-gradient(135deg, rgba(79,110,247,0.1), rgba(34,211,160,0.05));
+      border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    }
+    .cta-box { text-align: center; max-width: 600px; margin: 0 auto; }
+    .cta-box h2 { font-size: 2.2rem; font-weight: 800; margin-bottom: 1rem; letter-spacing: -0.02em; }
+    .cta-box p { color: var(--muted); font-size: 1.05rem; margin-bottom: 2rem; }
+    .cta-email {
+      font-size: 1.2rem; font-weight: 700; color: var(--accent);
+      text-decoration: none; border-bottom: 2px solid rgba(79,110,247,0.4);
+      padding-bottom: 2px; transition: border-color .2s;
+    }
+    .cta-email:hover { border-color: var(--accent); }
+
+    /* FOOTER */
+    footer {
+      padding: 2rem; text-align: center;
+      border-top: 1px solid var(--border);
+      color: var(--muted); font-size: 0.85rem;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hero h1 { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="logo">AI Studio <span>xyz</span></div>
+    <ul class="nav-links">
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#services">Leistungen</a></li>
+      <li><a href="#prozess">Ablauf</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <a href="#kontakt" class="nav-cta">Kostenlos anfragen</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">🇦🇹 Austria · Python Automatisierung</div>
+    <h1>
+      Schluss mit<br>
+      <span class="highlight">Copy-Paste in Excel.</span>
+    </h1>
+    <p>
+      Ich automatisiere manuelle Excel-Prozesse mit Python — und spare deinem Team
+      Stunden pro Woche. Einmalige Investition, dauerhafter Effekt.
+    </p>
+    <div class="hero-cta">
+      <a href="#kontakt" class="btn-primary">Jetzt anfragen →</a>
+      <a href="#services" class="btn-secondary">Leistungen ansehen</a>
+    </div>
+
+    <div class="hero-visual">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+      </div>
+      <div class="code-block">
+        <span class="c-comment"># Vorher: 3 Stunden manuelles Zusammenführen in Excel</span><br>
+        <span class="c-comment"># Nachher: Python macht das in 4 Sekunden automatisch</span><br><br>
+        <span class="c-keyword">import</span> <span class="c-var">pandas</span> <span class="c-keyword">as</span> <span class="c-var">pd</span><br>
+        <span class="c-keyword">from</span> <span class="c-var">pathlib</span> <span class="c-keyword">import</span> <span class="c-var">Path</span><br><br>
+        <span class="c-comment"># Alle monatlichen Reports automatisch zusammenführen</span><br>
+        <span class="c-var">reports</span> = <span class="c-var">pd</span>.<span class="c-func">concat</span>([<span class="c-var">pd</span>.<span class="c-func">read_excel</span>(<span class="c-var">f</span>) <span class="c-keyword">for</span> <span class="c-var">f</span> <span class="c-keyword">in</span> <span class="c-var">Path</span>(<span class="c-string">"reports/"</span>).<span class="c-func">glob</span>(<span class="c-string">"*.xlsx"</span>)])<br>
+        <span class="c-var">reports</span>.<span class="c-func">to_excel</span>(<span class="c-string">"jahresbericht_2026.xlsx"</span>, <span class="c-var">index</span>=<span class="c-keyword">False</span>)<br><br>
+        <span class="c-func">print</span>(<span class="c-string">f"✓ </span><span class="c-num">{len(reports)}</span><span class="c-string"> Zeilen verarbeitet — fertig in 4.2s"</span>)
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAIN POINTS -->
+<section class="section" id="problem">
+  <div class="section-inner">
+    <div class="section-label">Kommt dir bekannt vor?</div>
+    <h2>Dein Team verschwendet Zeit mit Excel</h2>
+    <p class="lead">Manuelle Prozesse in Excel kosten Stunden pro Woche — und funktionieren nur solange kein Fehler passiert.</p>
+
+    <div class="pain-grid">
+      <div class="pain-card">
+        <div class="pain-icon">📋</div>
+        <h3>Monatliche Reports per Hand</h3>
+        <p>Daten aus 10 Dateien zusammenkopieren, formatieren, per E-Mail versenden — jeden Monat wieder von vorne.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">⚠️</div>
+        <h3>Fehler durch Copy-Paste</h3>
+        <p>Ein falscher Wert, eine falsche Zelle — und der Bericht stimmt nicht. Fehler die stunden- oder tagelang unbemerkt bleiben.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">⏱️</div>
+        <h3>Rechnungen manuell erstellen</h3>
+        <p>Kundendaten aus einer Liste in eine Excel-Vorlage übertragen, PDF exportieren — für jeden einzelnen Kunden.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">🔄</div>
+        <h3>Daten manuell übertragen</h3>
+        <p>Excel → E-Mail → anderes System → Excel. Prozesse die jemanden 30 Minuten täglich kosten, weil kein System mit dem anderen spricht.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">📊</div>
+        <h3>Dashboards die veralten</h3>
+        <p>Schöne Auswertungen die nur aktuell sind, wenn jemand manuell Zahlen aktualisiert — und das regelmäßig vergessen wird.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon">🗃️</div>
+        <h3>Daten aufräumen & bereinigen</h3>
+        <p>Importe mit Duplikaten, falschen Formaten, fehlenden Werten — stundenlange Handarbeit vor jeder Auswertung.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section class="section examples" id="beispiele">
+  <div class="section-inner">
+    <div class="section-label">Vorher → Nachher</div>
+    <h2>Was konkret automatisiert wird</h2>
+
+    <div class="examples-grid">
+      <div class="example-before">
+        <div class="ex-label ex-before-label">❌ Vorher: Manuell</div>
+        <div class="ex-item"><div class="ex-bullet">•</div><div class="ex-text"><strong>3 Stunden/Woche</strong> Daten aus verschiedenen Excel-Files zusammenkopieren</div></div>
+        <div class="ex-item"><div class="ex-bullet">•</div><div class="ex-text"><strong>Jeden Monat</strong> Rechnungen manuell in Excel ausfüllen und als PDF speichern</div></div>
+        <div class="ex-item"><div class="ex-bullet">•</div><div class="ex-text"><strong>Fehleranfällig</strong> — ein falsches Ctrl+C ruiniert den ganzen Report</div></div>
+        <div class="ex-item"><div class="ex-bullet">•</div><div class="ex-text"><strong>Nur 1 Person</strong> weiß wie der Prozess funktioniert — Urlaubsproblem</div></div>
+        <div class="ex-item"><div class="ex-bullet">•</div><div class="ex-text"><strong>E-Mails händisch</strong> mit Dateianhang versenden — für 200 Empfänger einzeln</div></div>
+      </div>
+      <div class="example-after">
+        <div class="ex-label ex-after-label">✅ Nachher: Automatisiert</div>
+        <div class="ex-item"><div class="ex-bullet">✓</div><div class="ex-text"><strong>Python-Script läuft</strong> automatisch — Ergebnis in unter 1 Minute, fehlerfrei</div></div>
+        <div class="ex-item"><div class="ex-bullet">✓</div><div class="ex-text"><strong>Rechnungs-PDF</strong> wird automatisch generiert und per E-Mail verschickt</div></div>
+        <div class="ex-item"><div class="ex-bullet">✓</div><div class="ex-text"><strong>0 manuelle Schritte</strong> — Script läuft auf Knopfdruck oder vollautomatisch</div></div>
+        <div class="ex-item"><div class="ex-bullet">✓</div><div class="ex-text"><strong>Dokumentierter Code</strong> — jeder kann verstehen was passiert, nichts geht verloren</div></div>
+        <div class="ex-item"><div class="ex-bullet">✓</div><div class="ex-text"><strong>Massen-E-Mails</strong> mit personalisierten Anhängen vollautomatisch in 30 Sekunden</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES / PRICING -->
+<section class="section" id="services">
+  <div class="section-inner">
+    <div class="section-label">Leistungen & Preise</div>
+    <h2>Drei klare Pakete</h2>
+    <p class="lead">Kein Stundensatz-Roulette. Fixer Preis, klares Ergebnis.</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Quick Fix</h3>
+        <div class="service-price">ab 350 € <span>einmalig</span></div>
+        <p class="desc">Ein einzelner manueller Schritt wird automatisiert. Schnell, fokussiert, sofort einsetzbar.</p>
+        <ul class="service-features">
+          <li>1 definierter Prozess / Script</li>
+          <li>Lieferung in 3–5 Werktagen</li>
+          <li>Python-Script + Anleitung</li>
+          <li>Funktioniert auf Windows & Mac</li>
+          <li>30 Tage Nachbesserung inklusive</li>
+        </ul>
+      </div>
+
+      <div class="service-card featured">
+        <div class="featured-badge">Beliebt</div>
+        <h3>Full Automation</h3>
+        <div class="service-price">ab 800 € <span>einmalig</span></div>
+        <p class="desc">Ein kompletter Workflow wird analysiert und vollständig automatisiert — inkl. Fehlerbehandlung und Logging.</p>
+        <ul class="service-features">
+          <li>Kompletter End-to-End Prozess</li>
+          <li>Analyse + Konzept im Vorfeld</li>
+          <li>E-Mail-Integration möglich</li>
+          <li>Automatischer Versand / Trigger</li>
+          <li>Dokumentation & Übergabe-Call</li>
+          <li>60 Tage Support inklusive</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>Retainer</h3>
+        <div class="service-price">ab 400 € <span>/ Monat</span></div>
+        <p class="desc">Laufende Automatisierungen, neue Features, Anpassungen — dein Python-Automatisierungs-Partner on demand.</p>
+        <ul class="service-features">
+          <li>Bis zu 6h Entwicklung / Monat</li>
+          <li>Priorität bei neuen Anfragen</li>
+          <li>Wartung bestehender Scripts</li>
+          <li>Monatliches Review-Call</li>
+          <li>Flexibel kündbar (30 Tage)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="prozess" style="background: var(--dark2);">
+  <div class="section-inner">
+    <div class="section-label">Wie es läuft</div>
+    <h2>In 4 Schritten zur Automatisierung</h2>
+
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Kostenlose Analyse</h3>
+        <p>Du beschreibst deinen Prozess. Ich stelle Fragen, verstehe das Problem und zeige dir was automatisierbar ist.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Angebot & Fixpreis</h3>
+        <p>Du bekommst ein klares Angebot mit Preis, Scope und Zeitplan. Kein Stundenroulette, keine Überraschungen.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Entwicklung & Tests</h3>
+        <p>Ich baue die Automatisierung in Python, teste sie mit deinen echten Daten und dokumentiere alles.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Übergabe & Go-Live</h3>
+        <p>Gemeinsamer Übergabe-Call, Einweisung deines Teams, Script läuft — du hast sofort Zeit gewonnen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-label">Tech Stack</div>
+    <h2>Werkzeuge die ich einsetze</h2>
+    <p class="lead">Pure Python — keine Abhängigkeit von teuren Tools, keine Lock-in-Risiken.</p>
+    <div class="tech-grid">
+      <span class="tech-tag">Python 3.12</span>
+      <span class="tech-tag">pandas</span>
+      <span class="tech-tag">openpyxl</span>
+      <span class="tech-tag">xlwings</span>
+      <span class="tech-tag">reportlab (PDF)</span>
+      <span class="tech-tag">smtplib / SMTP</span>
+      <span class="tech-tag">SQLite / PostgreSQL</span>
+      <span class="tech-tag">requests / APIs</span>
+      <span class="tech-tag">selenium / playwright</span>
+      <span class="tech-tag">OpenAI API</span>
+      <span class="tech-tag">schedule / cron</span>
+      <span class="tech-tag">Windows Task Scheduler</span>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta-section" id="kontakt">
+  <div class="section-inner">
+    <div class="cta-box">
+      <h2>Bereit, Stunden zu sparen?</h2>
+      <p>Beschreib mir deinen manuellen Excel-Prozess in 2 Sätzen — ich sage dir in 24h ob und wie ich ihn automatisieren kann. Kostenloses Erstgespräch, keine Verpflichtung.</p>
+      <br>
+      <a href="mailto:mag.sven.steiner@gmail.com" class="cta-email">mag.sven.steiner@gmail.com</a>
+      <br><br>
+      <a href="mailto:mag.sven.steiner@gmail.com" class="btn-primary" style="margin-top: 1rem;">Jetzt kostenlos anfragen →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 AI Studio xyz · Sven Steiner · Österreich · Python Prozessautomatisierung</p>
+</footer>
+
+</body>
+</html>

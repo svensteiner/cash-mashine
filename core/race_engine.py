@@ -20,7 +20,8 @@ import asyncio
 import json
 import logging
 import time
-from datetime import datetime, UTC
+from datetime import datetime, timezone
+UTC = timezone.utc
 from pathlib import Path
 from typing import Optional
 
