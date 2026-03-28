@@ -1,0 +1,105 @@
+  BOT 1: Faucet — Setup-Anleitung
+
+  Einmalig (ca. 20 Min):
+
+  1. 1_START.bat doppelklicken
+     → Browser öffnet sich
+
+  2. Cointiply.com:
+     → Gehe zu https://cointiply.com/register
+     → Mit Email registrieren
+     → Wallet eintragen (Settings → Withdraw → BTC Adresse)
+     → Eingeloggt lassen
+
+  3. FreeBitco.in:
+     → Gehe zu https://freebitco.in
+     → Mit Email registrieren
+     → BTC Adresse eintragen
+     → Eingeloggt lassen
+
+  4. FireFaucet.win:
+     → Gehe zu https://firefaucet.win
+     → Mit Google/Email registrieren
+     → ETH Adresse: 0xF9A5EaE7E0b1D51cc8411BB612bA3B9D2cb4500A
+     → Eingeloggt lassen
+
+  5. Browser NICHT schliessen — einfach lassen
+     Der Bot merkt sich die Session automatisch!
+
+  6. Jetzt 2_DAUERLAUF.bat starten → läuft automatisch
+
+  ---
+  BOT 2: Airdrop Quest Bot — Setup-Anleitung
+
+  Einmalig (ca. 30 Min):
+
+  1. 1_START.bat → Browser öffnet sich
+
+  2. Twitter/X einloggen:
+     → Gehe zu https://x.com/login
+     → Mit deinem Account einloggen
+     → Eingeloggt lassen
+
+  3. Discord einloggen:
+     → Gehe zu https://discord.com/app
+     → Mit deinem Account einloggen
+     → Eingeloggt lassen
+
+  4. Galxe verbinden:
+     → Gehe zu https://app.galxe.com
+     → "Connect" oben rechts
+     → "Connect Twitter" → authorisieren
+     → "Connect Wallet" → MetaMask mit deiner ETH Wallet
+       (0xF9A5EaE7E0b1D51cc8411BB612bA3B9D2cb4500A)
+
+  5. Browser lassen, dann:
+     → 2_DAUERLAUF.bat starten
+     → Bot scannt alle 2h neue Quests + führt sie aus
+
+  Was der Bot dann automatisch macht:
+  - Twitter-Accounts folgen
+  - Tweets liken & retweeten
+  - Discord-Servern beitreten
+  - Quiz-Fragen per KI beantworten
+
+  ---
+  BOT 3: DeFi Yield Bot — Setup-Anleitung
+
+  Zwei Teile: Bot-Setup + echte Investition
+
+  Teil A — Bot konfigurieren (10 Min):
+
+  Etherscan API Key holen (kostenlos):
+  1. https://etherscan.io/register → Account erstellen
+  2. https://etherscan.io/myapikey → "Add" → Key kopieren
+  3. In .env eintragen: ETHERSCAN_API_KEY=dein-key
+
+  Arbiscan API Key (für Arbitrum):
+  1. https://arbiscan.io/register → Account erstellen
+  2. https://arbiscan.io/myapikey → Key kopieren
+  3. In .env eintragen: ARBISCAN_API_KEY=dein-key
+
+  Teil B — 5000 EUR investieren:
+
+  Ich empfehle Aave V3 auf Arbitrum (günstigste Gas-Gebühren):
+
+  Schritt 1 — EUR zu USDC:
+    → Kraken/Coinbase/Bitpanda
+    → 5000 EUR kaufen als USDC
+    → USDC zu deiner Wallet senden:
+      0xF9A5EaE7E0b1D51cc8411BB612bA3B9D2cb4500A
+
+  Schritt 2 — USDC zu Arbitrum bridgen:
+    → https://bridge.arbitrum.io
+    → USDC von Ethereum → Arbitrum
+    (spart 90% Gas-Gebühren beim Compounding!)
+
+  Schritt 3 — Auf Aave einzahlen:
+    → https://app.aave.com
+    → Netzwerk: Arbitrum
+    → "Supply" → USDC → Betrag eingeben → Bestätigen
+    → Fertig! Zinsen laufen sofort
+
+  Schritt 4 — Bot übernimmt:
+    → 2_DAUERLAUF.bat starten
+    → Alle 6h: Yield-Check, Bericht, Alert wenn APY fällt

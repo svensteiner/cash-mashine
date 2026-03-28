@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+browser_data/
+state/galxe_cache.json
+state/layer3_cache.json
+*.log
+*.lock
